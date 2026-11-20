@@ -1,0 +1,7 @@
+Model: gemma4:e4b (Ollama 0.40.16)
+Runs: 5 | seeds 0..4 | temperature: model default
+Correct answers: Q1 = 9.9 | Q2 = 3 | Q3 = Uqts
+
+[direct]  Q1 5/5 | Q2 4/5 | Q3 4/5 | all three 4/5
+[code]  Q1 5/5 | Q2 5/5 | Q3 5/5 | all three 5/5
+         code execution status: {'ok': 5}

@@ -1,0 +1,24 @@
+{
+  "data_source": "token_file",
+  "validation": {
+    "encoding": "o200k_base",
+    "corpus_chars": 22044,
+    "token_file_ids": 4731,
+    "token_file_junk_chars": [],
+    "validation": "passed",
+    "matched_variant": "exact",
+    "source": "token_file",
+    "n_tokens": 4731,
+    "compact_vocab_size": 1814
+  },
+  "params": 637184,
+  "steps": 3098,
+  "train_seconds": 60.01327399601905,
+  "wall_seconds": 73.46674287499991,
+  "tokens_seen": 3172352,
+  "avg_tokens_per_s": 52860.83875727953,
+  "final_train_loss": 0.05780617147684097,
+  "final_val_loss": 10.94347858428955,
+  "torch_version": "2.15.0",
+  "threads": 4
+}

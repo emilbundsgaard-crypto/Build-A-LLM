@@ -1,0 +1,4050 @@
+[data] tokenizer: o200k_base (max token id 200018)
+[data] corpus: 22,044 characters
+[data] token file: 4,731 IDs
+[data] VALIDATION PASSED: token file == o200k_base encoding of corpus (exact).
+[data] round-trip decode check passed.
+[data] compact vocab: 1,814 observed IDs (of 200,019)
+[train] device=cpu threads=4 torch=2.15.0
+[train] tokens: total=4,731 train=4,257 val=474
+[train] model: 637,184 params | {'vocab_size': 1814, 'block_size': 64, 'n_layer': 2, 'n_head': 4, 'n_embd': 128, 'dropout': 0.0}
+[train] uniform-guess loss ln(V) = 7.5033
+[train] prompt='The new product' -> 3 tokens
+
+--- sample [step 0 (before training)] seed=1337 temp=0.8 top_k=40 ---
+The new product well launched ann Her beneficial @ Korean reported) letters diagnosis February building product soda respectivelyHA vegetable supplier audience audience bladder Sc learned dont £ HERERunningRunning line Kari Kari stalls dont A property Approach teammatesSAM beneficial
+---
+
+[val] step 0 | val_loss 7.4979
+
+  step |     loss |   elapsed |     tok/s
+------------------------------------------
+     1 |   7.5358 |     0.04s |     25356
+     2 |   7.5142 |     0.06s |     34300
+     3 |   7.4847 |     0.08s |     38769
+     4 |   7.4416 |     0.10s |     41491
+     5 |   7.4206 |     0.12s |     43414
+     6 |   7.3573 |     0.14s |     44754
+     7 |   7.3100 |     0.16s |     45747
+     8 |   7.2755 |     0.18s |     46574
+     9 |   7.2635 |     0.20s |     47170
+    10 |   7.1971 |     0.21s |     47777
+    11 |   7.1817 |     0.23s |     48290
+    12 |   7.1396 |     0.25s |     48687
+    13 |   7.1050 |     0.27s |     49209
+    14 |   7.1392 |     0.29s |     49592
+    15 |   7.0743 |     0.31s |     49974
+    16 |   7.0024 |     0.33s |     50381
+    17 |   6.9188 |     0.34s |     50690
+    18 |   6.9011 |     0.36s |     51055
+    19 |   6.8355 |     0.38s |     51325
+    20 |   6.7690 |     0.40s |     51563
+[val] step 20 | val_loss 7.1781
+
+--- sample [step 20] seed=1337 temp=0.8 top_k=40 ---
+The new product. to chocolate. a at at with) and at with)2 its " at  the the?) it the and, the of have? at ( on. The.., it (
+---
+
+    21 |   6.7969 |     0.42s |     51741
+    22 |   6.7104 |     0.43s |     51993
+    23 |   6.5253 |     0.45s |     52227
+    24 |   6.6775 |     0.47s |     52443
+    25 |   6.4945 |     0.49s |     52640
+    26 |   6.8367 |     0.51s |     52590
+    27 |   6.5243 |     0.53s |     52651
+    28 |   6.4150 |     0.54s |     52757
+    29 |   6.4179 |     0.56s |     52854
+    30 |   6.4710 |     0.58s |     52978
+    31 |   6.4907 |     0.60s |     53112
+    32 |   6.3804 |     0.62s |     53235
+    33 |   6.1520 |     0.63s |     53285
+    34 |   6.1143 |     0.65s |     53379
+    35 |   6.3105 |     0.67s |     53486
+    36 |   6.1811 |     0.69s |     53554
+    37 |   6.2060 |     0.71s |     53672
+    38 |   6.1920 |     0.72s |     53742
+    39 |   6.2262 |     0.74s |     53818
+    40 |   6.0905 |     0.76s |     53862
+[val] step 40 | val_loss 7.0761
+
+--- sample [step 40] seed=1337 temp=0.8 top_k=40 ---
+The new product. to and and a at the with of and a hand: in employee or to  the the to have it the and, the the have a at The on. The.., and 
+---
+
+    41 |   6.0877 |     0.78s |     53910
+    42 |   5.8680 |     0.80s |     53981
+    43 |   5.8799 |     0.82s |     54001
+    44 |   5.8787 |     0.83s |     54018
+    45 |   5.7772 |     0.85s |     54069
+    46 |   5.7747 |     0.87s |     54144
+    47 |   5.7132 |     0.89s |     54155
+    48 |   5.7933 |     0.91s |     54197
+    49 |   5.7022 |     0.92s |     54245
+    50 |   5.7366 |     0.94s |     54301
+    51 |   5.7474 |     0.96s |     54299
+    52 |   5.6343 |     0.98s |     54253
+    53 |   5.4430 |     1.00s |     54246
+    54 |   5.3905 |     1.02s |     54184
+    55 |   5.3201 |     1.04s |     54141
+    56 |   5.3876 |     1.06s |     54122
+    57 |   5.2502 |     1.08s |     54130
+    58 |   5.3672 |     1.10s |     54108
+    59 |   5.3459 |     1.12s |     54102
+    60 |   5.3153 |     1.14s |     54131
+[val] step 60 | val_loss 7.0684
+
+--- sample [step 60] seed=1337 temp=0.8 top_k=40 ---
+The new product. - Put. “We to with retailer and a non and2 to or two 2011? recalls it the Br, the time have a time ( than. The |., and 
+---
+
+    61 |   5.3084 |     1.15s |     54106
+    62 |   5.1426 |     1.17s |     54105
+    63 |   5.3778 |     1.19s |     54109
+    64 |   5.1201 |     1.21s |     54113
+    65 |   5.1254 |     1.23s |     54127
+    66 |   5.0539 |     1.25s |     54127
+    67 |   4.7694 |     1.27s |     54140
+    68 |   4.9626 |     1.29s |     54146
+    69 |   4.8735 |     1.30s |     54186
+    70 |   4.9052 |     1.32s |     54219
+    71 |   4.7814 |     1.34s |     54261
+    72 |   4.9617 |     1.36s |     54253
+    73 |   4.6938 |     1.38s |     54250
+    74 |   4.8099 |     1.40s |     54290
+    75 |   4.6634 |     1.41s |     54295
+    76 |   4.5522 |     1.43s |     54318
+    77 |   4.6165 |     1.45s |     54336
+    78 |   4.6296 |     1.47s |     54362
+    79 |   4.4753 |     1.49s |     54396
+    80 |   4.4373 |     1.51s |     54426
+[val] step 80 | val_loss 7.1774
+
+--- sample [step 80] seed=1337 temp=0.8 top_k=40 ---
+The new product. - Put in a time of with 2011. In an RRE, 2011? Kraft it the Western, the time of recall at the first. The Vikings. By contrast,
+---
+
+    81 |   4.4613 |     1.52s |     54436
+    82 |   4.4287 |     1.54s |     54461
+    83 |   4.4180 |     1.56s |     54482
+    84 |   4.4670 |     1.58s |     54516
+    85 |   4.1949 |     1.60s |     54531
+    86 |   4.2125 |     1.61s |     54543
+    87 |   4.4319 |     1.63s |     54583
+    88 |   4.1942 |     1.65s |     54613
+    89 |   4.2635 |     1.67s |     54665
+    90 |   4.3538 |     1.69s |     54681
+    91 |   4.1206 |     1.70s |     54714
+    92 |   4.1973 |     1.72s |     54717
+    93 |   4.2691 |     1.74s |     54747
+    94 |   4.0394 |     1.76s |     54769
+    95 |   4.0992 |     1.78s |     54778
+    96 |   4.0979 |     1.80s |     54761
+    97 |   3.9975 |     1.81s |     54771
+    98 |   3.7240 |     1.83s |     54788
+    99 |   3.6951 |     1.85s |     54796
+   100 |   3.9235 |     1.87s |     54811
+[val] step 100 | val_loss 7.1986
+
+--- sample [step 100] seed=1337 temp=0.8 top_k=40 ---
+The new product. - Put in a time of the time of 25:9. - two 2011?24: time of 88: “critical” (see placeRE. - Put in the
+---
+
+   101 |   3.7746 |     1.89s |     54811
+   102 |   3.8835 |     1.91s |     54824
+   103 |   3.5892 |     1.92s |     54834
+   104 |   3.7805 |     1.94s |     54850
+   105 |   3.5256 |     1.96s |     54865
+   106 |   3.7477 |     1.98s |     54887
+   107 |   3.6366 |     2.00s |     54893
+   108 |   3.4796 |     2.01s |     54901
+   109 |   3.7055 |     2.03s |     54918
+   110 |   3.5399 |     2.05s |     54928
+   111 |   3.5172 |     2.07s |     54945
+   112 |   3.4670 |     2.09s |     54952
+   113 |   3.5057 |     2.11s |     54948
+   114 |   3.3083 |     2.12s |     54953
+   115 |   3.3179 |     2.14s |     54951
+   116 |   3.3673 |     2.16s |     54952
+   117 |   3.2096 |     2.18s |     54964
+   118 |   3.2497 |     2.20s |     54976
+   119 |   3.2767 |     2.22s |     54983
+   120 |   3.1858 |     2.23s |     54989
+[val] step 120 | val_loss 7.2729
+
+--- sample [step 120] seed=1337 temp=0.8 top_k=40 ---
+The new product. - Put in a time of with 2011. In the RRE at 2011? Kraft it out of 88: “critical” in the first AICR have been a
+---
+
+   121 |   3.1747 |     2.25s |     54993
+   122 |   3.1335 |     2.27s |     55018
+   123 |   3.1545 |     2.29s |     55016
+   124 |   3.1684 |     2.31s |     55015
+   125 |   3.2763 |     2.33s |     55029
+   126 |   3.0398 |     2.35s |     55021
+   127 |   3.1670 |     2.36s |     55044
+   128 |   3.1262 |     2.38s |     55045
+   129 |   3.1230 |     2.40s |     55043
+   130 |   3.1263 |     2.42s |     55040
+   131 |   2.8484 |     2.44s |     55052
+   132 |   3.0184 |     2.46s |     55018
+   133 |   2.8614 |     2.48s |     55023
+   134 |   2.8571 |     2.49s |     55004
+   135 |   2.8403 |     2.51s |     55003
+   136 |   2.8617 |     2.53s |     54989
+   137 |   2.7446 |     2.55s |     54977
+   138 |   2.8038 |     2.57s |     54981
+   139 |   2.9026 |     2.59s |     54990
+   140 |   2.6859 |     2.61s |     54980
+[val] step 140 | val_loss 7.3687
+
+--- sample [step 140] seed=1337 temp=0.8 top_k=40 ---
+The new product. Kraft chocolate spread market share the biggest-selling Invitational in the RRE. If you didnt. If you) - Make interestCorrected During Inspection Critical The The 2011. - Install a time
+---
+
+   141 |   2.6081 |     2.63s |     54985
+   142 |   2.8449 |     2.64s |     54986
+   143 |   2.7034 |     2.66s |     54983
+   144 |   2.6095 |     2.68s |     54983
+   145 |   2.5887 |     2.70s |     54995
+   146 |   2.7248 |     2.72s |     54988
+   147 |   2.7591 |     2.74s |     55001
+   148 |   2.6911 |     2.76s |     55007
+   149 |   2.5314 |     2.77s |     55002
+   150 |   2.4220 |     2.79s |     55024
+   151 |   2.5007 |     2.81s |     55024
+   152 |   2.4201 |     2.83s |     55022
+   153 |   2.3560 |     2.85s |     55026
+   154 |   2.4483 |     2.87s |     55027
+   155 |   2.4564 |     2.88s |     55039
+   156 |   2.3355 |     2.90s |     55042
+   157 |   2.2080 |     2.92s |     55050
+   158 |   2.3934 |     2.94s |     55063
+   159 |   2.3846 |     2.96s |     55067
+   160 |   2.3522 |     2.98s |     55069
+[val] step 160 | val_loss 7.5434
+
+--- sample [step 160] seed=1337 temp=0.8 top_k=40 ---
+The new product would-Lundeen Invitational at the exchange Conference of Kraft believes the Illinois. If you didnt. If you) it out of £2) “critical” in place finish in the top 26:
+---
+
+   161 |   2.1891 |     2.99s |     55070
+   162 |   2.3124 |     3.01s |     55083
+   163 |   2.3101 |     3.03s |     55075
+   164 |   2.3177 |     3.05s |     55076
+   165 |   2.1989 |     3.07s |     55080
+   166 |   2.0338 |     3.09s |     55079
+   167 |   2.1218 |     3.11s |     55074
+   168 |   2.2591 |     3.12s |     55064
+   169 |   2.2983 |     3.14s |     55073
+   170 |   2.1029 |     3.16s |     55077
+   171 |   2.1400 |     3.18s |     55075
+   172 |   1.9972 |     3.20s |     55075
+   173 |   2.1462 |     3.22s |     55061
+   174 |   1.9438 |     3.24s |     55070
+   175 |   1.9774 |     3.25s |     55061
+   176 |   1.9494 |     3.27s |     55064
+   177 |   1.9535 |     3.29s |     55078
+   178 |   1.9911 |     3.31s |     55081
+   179 |   2.0123 |     3.33s |     55072
+   180 |   1.9165 |     3.35s |     55072
+[val] step 180 | val_loss 7.6526
+
+--- sample [step 180] seed=1337 temp=0.8 top_k=40 ---
+The new product would-Lundeen Invitational at the exchange Conference of 25:9 Oncology Conference meter course. He, which was the Western Illinois Intercollegiate” in a field that animation. It was the
+---
+
+   181 |   2.0084 |     3.37s |     55079
+   182 |   1.8228 |     3.38s |     55073
+   183 |   1.9214 |     3.40s |     55087
+   184 |   1.8464 |     3.42s |     55086
+   185 |   1.7476 |     3.44s |     55062
+   186 |   1.9335 |     3.46s |     55043
+   187 |   1.8388 |     3.48s |     55020
+   188 |   1.9054 |     3.50s |     55011
+   189 |   1.7741 |     3.52s |     54994
+   190 |   1.6559 |     3.54s |     54976
+   191 |   1.8021 |     3.56s |     54949
+   192 |   1.7643 |     3.58s |     54936
+   193 |   1.7148 |     3.60s |     54914
+   194 |   1.6431 |     3.62s |     54891
+   195 |   1.6426 |     3.64s |     54878
+   196 |   1.5342 |     3.66s |     54865
+   197 |   1.6680 |     3.68s |     54856
+   198 |   1.6180 |     3.70s |     54839
+   199 |   1.6495 |     3.72s |     54839
+   200 |   1.6132 |     3.74s |     54831
+[val] step 200 | val_loss 7.7621
+
+--- sample [step 200] seed=1337 temp=0.8 top_k=40 ---
+The new product recall and chocolate spread is telling the exchange to yesterdays. I not two of the truth? I it the introduction to the entire food? The Zero Waste In the Rapid Recall Exchange, the
+---
+
+   201 |   1.6407 |     3.76s |     54809
+   202 |   1.6050 |     3.78s |     54785
+   203 |   1.4799 |     3.80s |     54767
+   204 |   1.4318 |     3.82s |     54639
+   205 |   1.4340 |     3.84s |     54632
+   206 |   1.5133 |     3.86s |     54620
+   207 |   1.3573 |     3.88s |     54610
+   208 |   1.5198 |     3.90s |     54602
+   209 |   1.4018 |     3.92s |     54594
+   210 |   1.4117 |     3.94s |     54585
+   211 |   1.2625 |     3.96s |     54570
+   212 |   1.3773 |     3.98s |     54558
+   213 |   1.3202 |     4.00s |     54561
+   214 |   1.3080 |     4.02s |     54552
+   215 |   1.1922 |     4.04s |     54539
+   216 |   1.4126 |     4.06s |     54500
+   217 |   1.2127 |     4.08s |     54497
+   218 |   1.1935 |     4.10s |     54493
+   219 |   1.2695 |     4.11s |     54499
+   220 |   1.3834 |     4.13s |     54483
+[val] step 220 | val_loss 7.9241
+
+--- sample [step 220] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the Fox Chase Cancer Center... 2010 2012)(1 US, 1)(24 – will help occasion. In addition, Lawrence While the first year. The Oncotype
+---
+
+   221 |   1.3022 |     4.15s |     54485
+   222 |   1.1207 |     4.17s |     54483
+   223 |   1.2654 |     4.19s |     54490
+   224 |   1.2193 |     4.21s |     54499
+   225 |   1.1208 |     4.23s |     54498
+   226 |   1.2917 |     4.25s |     54502
+   227 |   1.0833 |     4.26s |     54513
+   228 |   1.2152 |     4.28s |     54521
+   229 |   1.2050 |     4.30s |     54525
+   230 |   1.0305 |     4.32s |     54521
+   231 |   1.1189 |     4.34s |     54523
+   232 |   1.0845 |     4.36s |     54518
+   233 |   1.1272 |     4.38s |     54523
+   234 |   1.0089 |     4.39s |     54531
+   235 |   1.0226 |     4.41s |     54532
+   236 |   0.9779 |     4.43s |     54534
+   237 |   1.0317 |     4.45s |     54537
+   238 |   1.0556 |     4.47s |     54540
+   239 |   0.9726 |     4.49s |     54548
+   240 |   0.9823 |     4.50s |     54555
+[val] step 240 | val_loss 8.2116
+
+--- sample [step 240] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the Fox Chase Cancer Center with 2010 Critical RRE was named CCIW "EmployeeRunner of the Western Illinois & Wisconsin. Bowman’s strong performance helped the Vikings finish second at the
+---
+
+   241 |   0.9761 |     4.52s |     54557
+   242 |   0.9871 |     4.54s |     54561
+   243 |   0.9133 |     4.56s |     54563
+   244 |   1.0418 |     4.58s |     54566
+   245 |   0.9063 |     4.60s |     54561
+   246 |   0.9984 |     4.62s |     54565
+   247 |   1.0344 |     4.63s |     54574
+   248 |   0.9615 |     4.65s |     54570
+   249 |   0.8659 |     4.67s |     54573
+   250 |   0.8987 |     4.69s |     54582
+   251 |   0.8471 |     4.71s |     54577
+   252 |   0.8667 |     4.73s |     54571
+   253 |   0.7429 |     4.75s |     54573
+   254 |   0.7897 |     4.77s |     54575
+   255 |   0.8599 |     4.79s |     54570
+   256 |   0.7998 |     4.81s |     54555
+   257 |   0.7801 |     4.83s |     54537
+   258 |   0.7722 |     4.85s |     54528
+   259 |   0.8371 |     4.86s |     54521
+   260 |   0.7208 |     4.88s |     54509
+[val] step 260 | val_loss 8.1120
+
+--- sample [step 260] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the Fox Chase Cancer Center... 2009 Oncology Conference Coverage View up-to-date coverage of? The 1, senior Matt Bowman (RIT) is a 2009 Oncology Conference here
+---
+
+   261 |   0.7425 |     4.90s |     54505
+   262 |   0.7270 |     4.92s |     54501
+   263 |   0.7421 |     4.94s |     54490
+   264 |   0.6832 |     4.96s |     54485
+   265 |   0.6647 |     4.98s |     54477
+   266 |   0.7562 |     5.00s |     54473
+   267 |   0.6881 |     5.02s |     54474
+   268 |   0.6920 |     5.04s |     54471
+   269 |   0.6901 |     5.06s |     54464
+   270 |   0.7156 |     5.08s |     54461
+   271 |   0.6153 |     5.10s |     54462
+   272 |   0.6436 |     5.11s |     54461
+   273 |   0.6056 |     5.13s |     54460
+   274 |   0.6655 |     5.15s |     54467
+   275 |   0.5773 |     5.17s |     54467
+   276 |   0.7209 |     5.19s |     54466
+   277 |   0.5593 |     5.21s |     54474
+   278 |   0.6379 |     5.22s |     54484
+   279 |   0.5564 |     5.24s |     54484
+   280 |   0.5936 |     5.26s |     54482
+[val] step 280 | val_loss 8.2089
+
+--- sample [step 280] seed=1337 temp=0.8 top_k=40 ---
+The new product would be as its brands and launching Philadelphia with Cadbury, a chilled chocolate spread made from the first year. Kraft Foodsiate Championships. The exchange by July 1 US, Lawrenceville, N.J
+---
+
+   281 |   0.6139 |     5.28s |     54480
+   282 |   0.5967 |     5.30s |     54481
+   283 |   0.5844 |     5.32s |     54484
+   284 |   0.5253 |     5.34s |     54489
+   285 |   0.6888 |     5.36s |     54498
+   286 |   0.5374 |     5.37s |     54509
+   287 |   0.4585 |     5.39s |     54514
+   288 |   0.5600 |     5.41s |     54514
+   289 |   0.5255 |     5.43s |     54507
+   290 |   0.4713 |     5.45s |     54506
+   291 |   0.4896 |     5.47s |     54505
+   292 |   0.5408 |     5.49s |     54504
+   293 |   0.5819 |     5.51s |     54491
+   294 |   0.5202 |     5.53s |     54475
+   295 |   0.4989 |     5.55s |     54469
+   296 |   0.4862 |     5.57s |     54466
+   297 |   0.4283 |     5.58s |     54465
+   298 |   0.4385 |     5.60s |     54462
+   299 |   0.5049 |     5.62s |     54455
+   300 |   0.4659 |     5.64s |     54450
+[val] step 300 | val_loss 8.2081
+
+--- sample [step 300] seed=1337 temp=0.8 top_k=40 ---
+The new product has my knowledge, “We have reported that high-intensity focused... Marital Separation Impacts Cancer Survival Researchers from the University of Indiana and the Fox Chase Cancer Center... 2009 Oncology Conference Coverage
+---
+
+   301 |   0.4517 |     5.66s |     54449
+   302 |   0.4024 |     5.68s |     54455
+   303 |   0.4571 |     5.70s |     54454
+   304 |   0.4346 |     5.72s |     54448
+   305 |   0.4038 |     5.74s |     54449
+   306 |   0.4018 |     5.75s |     54454
+   307 |   0.3804 |     5.77s |     54461
+   308 |   0.3876 |     5.79s |     54462
+   309 |   0.3546 |     5.81s |     54462
+   310 |   0.4906 |     5.83s |     54468
+   311 |   0.3359 |     5.85s |     54460
+   312 |   0.3630 |     5.87s |     54463
+   313 |   0.3592 |     5.88s |     54467
+   314 |   0.3731 |     5.90s |     54470
+   315 |   0.3559 |     5.92s |     54473
+   316 |   0.3386 |     5.94s |     54472
+   317 |   0.3445 |     5.96s |     54460
+   318 |   0.3775 |     5.98s |     54461
+   319 |   0.3226 |     6.00s |     54457
+   320 |   0.3124 |     6.02s |     54453
+[val] step 320 | val_loss 8.2877
+
+--- sample [step 320] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the Fox Chase Cancer Center... 2009 Oncology Conference Coverage View up-to-eat foods? at the time of this inspection will help you develop and our hormones—and our health control for the
+---
+
+   321 |   0.3572 |     6.04s |     54453
+   322 |   0.3244 |     6.06s |     54454
+   323 |   0.3634 |     6.07s |     54456
+   324 |   0.3127 |     6.09s |     54449
+   325 |   0.2956 |     6.11s |     54448
+   326 |   0.3020 |     6.13s |     54437
+   327 |   0.3585 |     6.15s |     54432
+   328 |   0.3248 |     6.17s |     54429
+   329 |   0.3209 |     6.19s |     54423
+   330 |   0.3392 |     6.21s |     54414
+   331 |   0.3583 |     6.23s |     54402
+   332 |   0.2912 |     6.25s |     54396
+   333 |   0.2461 |     6.27s |     54383
+   334 |   0.2847 |     6.29s |     54385
+   335 |   0.2946 |     6.31s |     54392
+   336 |   0.3738 |     6.33s |     54390
+   337 |   0.3191 |     6.34s |     54392
+   338 |   0.2911 |     6.36s |     54401
+   339 |   0.2798 |     6.38s |     54399
+   340 |   0.2912 |     6.40s |     54406
+[val] step 340 | val_loss 8.4410
+
+--- sample [step 340] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+   341 |   0.2588 |     6.42s |     54416
+   342 |   0.2400 |     6.44s |     54416
+   343 |   0.2818 |     6.46s |     54411
+   344 |   0.2723 |     6.47s |     54411
+   345 |   0.2517 |     6.49s |     54415
+   346 |   0.2611 |     6.51s |     54416
+   347 |   0.2182 |     6.53s |     54423
+   348 |   0.2349 |     6.55s |     54423
+   349 |   0.2872 |     6.57s |     54424
+   350 |   0.2124 |     6.59s |     54416
+   351 |   0.2330 |     6.60s |     54418
+   352 |   0.2654 |     6.62s |     54423
+   353 |   0.2437 |     6.64s |     54424
+   354 |   0.2498 |     6.66s |     54426
+   355 |   0.2290 |     6.68s |     54420
+   356 |   0.1900 |     6.70s |     54402
+   357 |   0.2048 |     6.72s |     54365
+   358 |   0.2468 |     6.74s |     54359
+   359 |   0.2050 |     6.76s |     54355
+   360 |   0.2095 |     6.78s |     54344
+[val] step 360 | val_loss 8.6705
+
+--- sample [step 360] seed=1337 temp=0.8 top_k=40 ---
+The new product would have good for a 160g tub and a 120g four-pack of mini tubs, both with an rsp of £1.62.62. Kraft is supporting the launch with a £
+---
+
+   361 |   0.1965 |     6.80s |     54333
+   362 |   0.2548 |     6.82s |     54322
+   363 |   0.2204 |     6.84s |     54319
+   364 |   0.1924 |     6.86s |     54307
+   365 |   0.1873 |     6.88s |     54299
+   366 |   0.1787 |     6.90s |     54290
+   367 |   0.1982 |     6.92s |     54285
+   368 |   0.2022 |     6.94s |     54283
+   369 |   0.2395 |     6.96s |     54279
+   370 |   0.2366 |     6.98s |     54280
+   371 |   0.1963 |     7.00s |     54284
+   372 |   0.1700 |     7.02s |     54288
+   373 |   0.1923 |     7.03s |     54293
+   374 |   0.2048 |     7.05s |     54289
+   375 |   0.1951 |     7.07s |     54296
+   376 |   0.1495 |     7.09s |     54297
+   377 |   0.1939 |     7.11s |     54302
+   378 |   0.1845 |     7.13s |     54304
+   379 |   0.1619 |     7.15s |     54302
+   380 |   0.1824 |     7.17s |     54306
+[val] step 380 | val_loss 8.8938
+
+--- sample [step 380] seed=1337 temp=0.8 top_k=40 ---
+The new product would have chocolate variants of Philadelphia in Italy and Germany, using Milka chocolate and targeting the breakfast occasion. In Germany, Philadelphia with Milka has generated €22.2m in sales since its October
+---
+
+   381 |   0.1775 |     7.18s |     54315
+   382 |   0.1804 |     7.20s |     54318
+   383 |   0.1994 |     7.22s |     54321
+   384 |   0.1673 |     7.24s |     54327
+   385 |   0.1637 |     7.26s |     54335
+   386 |   0.1843 |     7.27s |     54332
+   387 |   0.1680 |     7.29s |     54332
+   388 |   0.1274 |     7.31s |     54337
+   389 |   0.1858 |     7.33s |     54341
+   390 |   0.1823 |     7.35s |     54337
+   391 |   0.1656 |     7.37s |     54340
+   392 |   0.1912 |     7.39s |     54344
+   393 |   0.1573 |     7.40s |     54349
+   394 |   0.1813 |     7.43s |     54334
+   395 |   0.1681 |     7.45s |     54325
+   396 |   0.1914 |     7.47s |     54320
+   397 |   0.1732 |     7.48s |     54312
+   398 |   0.1684 |     7.51s |     54299
+   399 |   0.1872 |     7.53s |     54295
+   400 |   0.1395 |     7.54s |     54289
+[val] step 400 | val_loss 8.5728
+
+--- sample [step 400] seed=1337 temp=0.8 top_k=40 ---
+The new product would have chocolate spread is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled dairy aisle next to
+---
+
+   401 |   0.1614 |     7.56s |     54283
+   402 |   0.1538 |     7.58s |     54281
+   403 |   0.1692 |     7.60s |     54279
+   404 |   0.1674 |     7.62s |     54281
+   405 |   0.1505 |     7.64s |     54284
+   406 |   0.1424 |     7.66s |     54286
+   407 |   0.1332 |     7.68s |     54295
+   408 |   0.2021 |     7.69s |     54303
+   409 |   0.1732 |     7.71s |     54302
+   410 |   0.1475 |     7.73s |     54309
+   411 |   0.1477 |     7.75s |     54315
+   412 |   0.1316 |     7.77s |     54325
+   413 |   0.2050 |     7.78s |     54328
+   414 |   0.1627 |     7.80s |     54331
+   415 |   0.1505 |     7.82s |     54329
+   416 |   0.1280 |     7.84s |     54335
+   417 |   0.1405 |     7.86s |     54337
+   418 |   0.1500 |     7.88s |     54342
+   419 |   0.1817 |     7.90s |     54340
+   420 |   0.1368 |     7.91s |     54342
+[val] step 420 | val_loss 8.8331
+
+--- sample [step 420] seed=1337 temp=0.8 top_k=40 ---
+The new product has a chocolate spread market. Kraft Foods UK marketing manager Bruce Newman said: “The UK product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and
+---
+
+   421 |   0.1405 |     7.93s |     54345
+   422 |   0.1645 |     7.95s |     54349
+   423 |   0.1381 |     7.97s |     54347
+   424 |   0.1585 |     7.99s |     54352
+   425 |   0.1396 |     8.01s |     54332
+   426 |   0.1263 |     8.03s |     54291
+   427 |   0.1538 |     8.05s |     54291
+   428 |   0.1439 |     8.07s |     54293
+   429 |   0.1670 |     8.09s |     54296
+   430 |   0.1125 |     8.11s |     54300
+   431 |   0.1375 |     8.13s |     54301
+   432 |   0.1550 |     8.15s |     54305
+   433 |   0.1509 |     8.16s |     54309
+   434 |   0.1684 |     8.18s |     54312
+   435 |   0.1848 |     8.20s |     54315
+   436 |   0.1405 |     8.22s |     54314
+   437 |   0.1241 |     8.24s |     54314
+   438 |   0.1114 |     8.26s |     54320
+   439 |   0.1570 |     8.28s |     54324
+   440 |   0.1257 |     8.29s |     54321
+[val] step 440 | val_loss 8.7778
+
+--- sample [step 440] seed=1337 temp=0.8 top_k=40 ---
+The new product would have good for a 160g tub and a 120g four-pack of ice-Dover ("WE NOTHING TO DO WITH DOVER! Working Together to handle all times for employee health policy.
+---
+
+   441 |   0.1560 |     8.31s |     54326
+   442 |   0.1501 |     8.33s |     54333
+   443 |   0.1140 |     8.35s |     54340
+   444 |   0.1220 |     8.37s |     54337
+   445 |   0.0965 |     8.39s |     54343
+   446 |   0.1071 |     8.40s |     54341
+   447 |   0.1217 |     8.42s |     54340
+   448 |   0.1262 |     8.44s |     54343
+   449 |   0.1501 |     8.46s |     54346
+   450 |   0.1321 |     8.48s |     54343
+   451 |   0.0991 |     8.50s |     54345
+   452 |   0.1040 |     8.52s |     54342
+   453 |   0.0988 |     8.54s |     54338
+   454 |   0.1194 |     8.56s |     54341
+   455 |   0.1222 |     8.57s |     54341
+   456 |   0.1028 |     8.59s |     54345
+   457 |   0.1347 |     8.61s |     54344
+   458 |   0.1241 |     8.63s |     54348
+   459 |   0.0968 |     8.65s |     54348
+   460 |   0.1421 |     8.67s |     54349
+[val] step 460 | val_loss 8.8413
+
+--- sample [step 460] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+   461 |   0.1334 |     8.69s |     54350
+   462 |   0.1633 |     8.70s |     54350
+   463 |   0.1186 |     8.72s |     54348
+   464 |   0.1356 |     8.74s |     54347
+   465 |   0.1487 |     8.76s |     54348
+   466 |   0.1441 |     8.78s |     54345
+   467 |   0.1253 |     8.80s |     54342
+   468 |   0.1549 |     8.82s |     54336
+   469 |   0.1113 |     8.84s |     54326
+   470 |   0.1135 |     8.86s |     54319
+   471 |   0.1043 |     8.88s |     54313
+   472 |   0.0994 |     8.90s |     54305
+   473 |   0.1117 |     8.92s |     54293
+   474 |   0.1080 |     8.94s |     54285
+   475 |   0.1282 |     8.96s |     54284
+   476 |   0.0963 |     8.98s |     54281
+   477 |   0.1223 |     9.00s |     54274
+   478 |   0.0904 |     9.02s |     54271
+   479 |   0.0977 |     9.04s |     54266
+   480 |   0.1014 |     9.06s |     54266
+[val] step 480 | val_loss 8.9332
+
+--- sample [step 480] seed=1337 temp=0.8 top_k=40 ---
+The new product would have good penetration [among manufacturers] on the dry grocery side — though it needs to be better — and it needs to be better — and need to expand in other fresh food verticals like meat
+---
+
+   481 |   0.1130 |     9.08s |     54264
+   482 |   0.1108 |     9.10s |     54258
+   483 |   0.0976 |     9.12s |     54256
+   484 |   0.1158 |     9.14s |     54248
+   485 |   0.0984 |     9.16s |     54243
+   486 |   0.1201 |     9.18s |     54239
+   487 |   0.1121 |     9.19s |     54239
+   488 |   0.1071 |     9.21s |     54233
+   489 |   0.1144 |     9.23s |     54230
+   490 |   0.1182 |     9.25s |     54228
+   491 |   0.1058 |     9.27s |     54224
+   492 |   0.1165 |     9.29s |     54226
+   493 |   0.1064 |     9.31s |     54226
+   494 |   0.1083 |     9.33s |     54228
+   495 |   0.0978 |     9.35s |     54231
+   496 |   0.1512 |     9.37s |     54231
+   497 |   0.1216 |     9.38s |     54232
+   498 |   0.0991 |     9.40s |     54229
+   499 |   0.0968 |     9.42s |     54228
+   500 |   0.0869 |     9.44s |     54227
+[val] step 500 | val_loss 9.0129
+
+--- sample [step 500] seed=1337 temp=0.8 top_k=40 ---
+The new product has the chocolate spread is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled dairy aisle next to
+---
+
+   501 |   0.1195 |     9.46s |     54226
+   502 |   0.0950 |     9.48s |     54227
+   503 |   0.1103 |     9.50s |     54225
+   504 |   0.1009 |     9.52s |     54223
+   505 |   0.1214 |     9.54s |     54213
+   506 |   0.1226 |     9.56s |     54202
+   507 |   0.1421 |     9.58s |     54192
+   508 |   0.0933 |     9.60s |     54191
+   509 |   0.1206 |     9.62s |     54184
+   510 |   0.1090 |     9.64s |     54177
+   511 |   0.1322 |     9.66s |     54171
+   512 |   0.1089 |     9.68s |     54168
+   513 |   0.0841 |     9.70s |     54170
+   514 |   0.0961 |     9.72s |     54164
+   515 |   0.0882 |     9.74s |     54159
+   516 |   0.1050 |     9.76s |     54152
+   517 |   0.1186 |     9.78s |     54154
+   518 |   0.0973 |     9.79s |     54155
+   519 |   0.1034 |     9.81s |     54159
+   520 |   0.0899 |     9.83s |     54159
+[val] step 520 | val_loss 9.0657
+
+--- sample [step 520] seed=1337 temp=0.8 top_k=40 ---
+The new product has the chocolate variants of Philadelphia in Italy and Germany, using Milka chocolate and targeting the breakfast occasion. In Germany, Philadelphia with Milka has generated €22.2m in sales since its October
+---
+
+   521 |   0.1390 |     9.85s |     54163
+   522 |   0.1087 |     9.87s |     54160
+   523 |   0.0862 |     9.89s |     54163
+   524 |   0.1202 |     9.91s |     54166
+   525 |   0.1206 |     9.93s |     54161
+   526 |   0.1084 |     9.95s |     54159
+   527 |   0.0947 |     9.96s |     54161
+   528 |   0.0970 |     9.98s |     54161
+   529 |   0.1224 |    10.00s |     54160
+   530 |   0.1152 |    10.02s |     54164
+   531 |   0.1203 |    10.04s |     54167
+   532 |   0.1095 |    10.06s |     54167
+   533 |   0.1256 |    10.08s |     54169
+   534 |   0.0879 |    10.09s |     54170
+   535 |   0.1236 |    10.11s |     54167
+   536 |   0.0953 |    10.13s |     54163
+   537 |   0.0973 |    10.15s |     54163
+   538 |   0.0990 |    10.17s |     54169
+   539 |   0.1093 |    10.19s |     54176
+   540 |   0.1132 |    10.21s |     54177
+[val] step 540 | val_loss 9.1150
+
+--- sample [step 540] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+   541 |   0.0901 |    10.23s |     54179
+   542 |   0.0716 |    10.24s |     54179
+   543 |   0.1247 |    10.26s |     54182
+   544 |   0.0942 |    10.28s |     54182
+   545 |   0.0954 |    10.30s |     54183
+   546 |   0.0843 |    10.32s |     54186
+   547 |   0.1259 |    10.34s |     54184
+   548 |   0.0926 |    10.36s |     54183
+   549 |   0.1123 |    10.38s |     54179
+   550 |   0.1068 |    10.40s |     54175
+   551 |   0.1081 |    10.42s |     54167
+   552 |   0.1194 |    10.44s |     54157
+   553 |   0.0940 |    10.46s |     54151
+   554 |   0.1230 |    10.48s |     54149
+   555 |   0.0949 |    10.50s |     54142
+   556 |   0.1141 |    10.52s |     54139
+   557 |   0.0905 |    10.54s |     54138
+   558 |   0.1107 |    10.55s |     54138
+   559 |   0.0655 |    10.57s |     54134
+   560 |   0.0911 |    10.59s |     54134
+[val] step 560 | val_loss 9.0050
+
+--- sample [step 560] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+   561 |   0.1167 |    10.61s |     54130
+   562 |   0.0829 |    10.63s |     54121
+   563 |   0.0909 |    10.65s |     54120
+   564 |   0.0971 |    10.67s |     54115
+   565 |   0.0918 |    10.69s |     54113
+   566 |   0.0981 |    10.71s |     54114
+   567 |   0.0981 |    10.73s |     54117
+   568 |   0.0886 |    10.75s |     54117
+   569 |   0.1254 |    10.77s |     54122
+   570 |   0.0990 |    10.78s |     54123
+   571 |   0.0837 |    10.80s |     54116
+   572 |   0.0747 |    10.82s |     54115
+   573 |   0.1032 |    10.84s |     54116
+   574 |   0.0867 |    10.86s |     54114
+   575 |   0.0740 |    10.88s |     54118
+   576 |   0.0888 |    10.90s |     54118
+   577 |   0.0999 |    10.92s |     54107
+   578 |   0.0922 |    10.94s |     54103
+   579 |   0.0879 |    10.96s |     54096
+   580 |   0.1186 |    10.98s |     54092
+[val] step 580 | val_loss 9.1057
+
+--- sample [step 580] seed=1337 temp=0.8 top_k=40 ---
+The new product has the chocolate spread is being launched on 1 February and will be appear in the chilled dairy aisle next to plain Philadelphia Light. It is launching in a 160g tub and a 120g
+---
+
+   581 |   0.0943 |    11.00s |     54093
+   582 |   0.0984 |    11.02s |     54084
+   583 |   0.0730 |    11.04s |     54080
+   584 |   0.0819 |    11.06s |     54074
+   585 |   0.0960 |    11.08s |     54073
+   586 |   0.0881 |    11.10s |     54069
+   587 |   0.0896 |    11.12s |     54062
+   588 |   0.0865 |    11.14s |     54059
+   589 |   0.0869 |    11.16s |     54056
+   590 |   0.0890 |    11.18s |     54054
+   591 |   0.0868 |    11.20s |     54051
+   592 |   0.0875 |    11.22s |     54046
+   593 |   0.0900 |    11.24s |     54046
+   594 |   0.0704 |    11.26s |     54041
+   595 |   0.0987 |    11.28s |     54034
+   596 |   0.0864 |    11.29s |     54033
+   597 |   0.1029 |    11.32s |     54028
+   598 |   0.1045 |    11.34s |     54022
+   599 |   0.0688 |    11.36s |     54018
+   600 |   0.0793 |    11.38s |     54013
+[val] step 600 | val_loss 9.3335
+
+--- sample [step 600] seed=1337 temp=0.8 top_k=40 ---
+The new product has the chocolate. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member to view this
+---
+
+   601 |   0.0924 |    11.39s |     54012
+   602 |   0.0862 |    11.41s |     54008
+   603 |   0.0671 |    11.43s |     54004
+   604 |   0.1154 |    11.45s |     54003
+   605 |   0.0924 |    11.47s |     54002
+   606 |   0.1105 |    11.49s |     54006
+   607 |   0.1000 |    11.51s |     54007
+   608 |   0.0935 |    11.53s |     54008
+   609 |   0.0805 |    11.55s |     54006
+   610 |   0.0913 |    11.57s |     54006
+   611 |   0.0804 |    11.59s |     54002
+   612 |   0.0961 |    11.61s |     53994
+   613 |   0.1079 |    11.63s |     53990
+   614 |   0.0851 |    11.65s |     53988
+   615 |   0.0848 |    11.67s |     53985
+   616 |   0.0994 |    11.68s |     53983
+   617 |   0.1100 |    11.70s |     53979
+   618 |   0.1117 |    11.72s |     53976
+   619 |   0.0883 |    11.74s |     53974
+   620 |   0.0798 |    11.76s |     53966
+[val] step 620 | val_loss 9.3198
+
+--- sample [step 620] seed=1337 temp=0.8 top_k=40 ---
+The new product would have good for a 160g tub and a 120g four-pack of 120g four-pack of mini tubs, both with an rsp of £1.62. Kraft is supporting the
+---
+
+   621 |   0.0902 |    11.78s |     53962
+   622 |   0.0957 |    11.80s |     53962
+   623 |   0.0663 |    11.82s |     53959
+   624 |   0.1022 |    11.84s |     53956
+   625 |   0.0811 |    11.86s |     53957
+   626 |   0.0928 |    11.88s |     53959
+   627 |   0.0730 |    11.90s |     53961
+   628 |   0.0837 |    11.92s |     53961
+   629 |   0.0952 |    11.94s |     53960
+   630 |   0.0785 |    11.96s |     53959
+   631 |   0.1254 |    11.98s |     53956
+   632 |   0.0934 |    11.99s |     53954
+   633 |   0.1142 |    12.01s |     53953
+   634 |   0.0830 |    12.03s |     53952
+   635 |   0.0803 |    12.05s |     53949
+   636 |   0.0599 |    12.07s |     53951
+   637 |   0.0646 |    12.09s |     53951
+   638 |   0.0934 |    12.11s |     53950
+   639 |   0.0909 |    12.13s |     53950
+   640 |   0.0886 |    12.15s |     53948
+[val] step 640 | val_loss 9.4178
+
+--- sample [step 640] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 2011 February and will be appear in the
+---
+
+   641 |   0.1101 |    12.17s |     53945
+   642 |   0.0973 |    12.19s |     53937
+   643 |   0.1120 |    12.21s |     53934
+   644 |   0.0971 |    12.23s |     53931
+   645 |   0.0947 |    12.25s |     53922
+   646 |   0.0915 |    12.27s |     53915
+   647 |   0.0744 |    12.29s |     53912
+   648 |   0.0933 |    12.31s |     53911
+   649 |   0.1013 |    12.33s |     53911
+   650 |   0.0808 |    12.35s |     53906
+   651 |   0.0673 |    12.37s |     53903
+   652 |   0.1092 |    12.39s |     53899
+   653 |   0.0687 |    12.41s |     53896
+   654 |   0.0957 |    12.43s |     53896
+   655 |   0.0900 |    12.45s |     53894
+   656 |   0.0874 |    12.47s |     53890
+   657 |   0.0865 |    12.48s |     53889
+   658 |   0.0635 |    12.50s |     53888
+   659 |   0.0984 |    12.52s |     53886
+   660 |   0.0816 |    12.54s |     53878
+[val] step 660 | val_loss 9.4256
+
+--- sample [step 660] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+   661 |   0.0829 |    12.56s |     53880
+   662 |   0.0730 |    12.58s |     53878
+   663 |   0.0936 |    12.60s |     53876
+   664 |   0.0968 |    12.62s |     53878
+   665 |   0.0866 |    12.64s |     53880
+   666 |   0.0659 |    12.66s |     53882
+   667 |   0.0779 |    12.68s |     53882
+   668 |   0.0694 |    12.69s |     53884
+   669 |   0.1116 |    12.71s |     53883
+   670 |   0.0973 |    12.73s |     53883
+   671 |   0.0752 |    12.75s |     53880
+   672 |   0.0842 |    12.77s |     53875
+   673 |   0.0644 |    12.79s |     53872
+   674 |   0.0755 |    12.81s |     53864
+   675 |   0.0862 |    12.83s |     53858
+   676 |   0.0912 |    12.85s |     53861
+   677 |   0.0645 |    12.87s |     53862
+   678 |   0.0590 |    12.89s |     53860
+   679 |   0.0681 |    12.91s |     53858
+   680 |   0.1045 |    12.93s |     53860
+[val] step 680 | val_loss 9.3003
+
+--- sample [step 680] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+   681 |   0.0840 |    12.95s |     53857
+   682 |   0.0806 |    12.97s |     53857
+   683 |   0.0788 |    12.99s |     53852
+   684 |   0.0505 |    13.01s |     53848
+   685 |   0.0964 |    13.03s |     53845
+   686 |   0.0688 |    13.05s |     53839
+   687 |   0.0944 |    13.07s |     53837
+   688 |   0.0669 |    13.09s |     53834
+   689 |   0.0947 |    13.11s |     53833
+   690 |   0.0680 |    13.12s |     53834
+   691 |   0.0766 |    13.14s |     53835
+   692 |   0.1063 |    13.16s |     53834
+   693 |   0.0630 |    13.18s |     53835
+   694 |   0.0901 |    13.20s |     53834
+   695 |   0.0827 |    13.22s |     53836
+   696 |   0.0625 |    13.24s |     53836
+   697 |   0.0483 |    13.26s |     53837
+   698 |   0.0687 |    13.28s |     53835
+   699 |   0.0945 |    13.30s |     53836
+   700 |   0.0912 |    13.31s |     53840
+[val] step 700 | val_loss 9.4617
+
+--- sample [step 700] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+   701 |   0.0806 |    13.33s |     53841
+   702 |   0.0732 |    13.35s |     53844
+   703 |   0.0781 |    13.37s |     53843
+   704 |   0.0976 |    13.39s |     53840
+   705 |   0.0656 |    13.41s |     53838
+   706 |   0.1091 |    13.43s |     53835
+   707 |   0.0695 |    13.45s |     53831
+   708 |   0.0880 |    13.47s |     53828
+   709 |   0.0840 |    13.49s |     53827
+   710 |   0.0822 |    13.51s |     53824
+   711 |   0.0733 |    13.53s |     53824
+   712 |   0.0910 |    13.55s |     53822
+   713 |   0.0970 |    13.57s |     53814
+   714 |   0.0846 |    13.59s |     53807
+   715 |   0.0842 |    13.61s |     53804
+   716 |   0.0749 |    13.63s |     53801
+   717 |   0.0782 |    13.65s |     53799
+   718 |   0.0786 |    13.67s |     53800
+   719 |   0.0694 |    13.69s |     53796
+   720 |   0.1013 |    13.71s |     53789
+[val] step 720 | val_loss 9.5549
+
+--- sample [step 720] seed=1337 temp=0.8 top_k=40 ---
+The new product would have “The breakfast occasion. In an April letter posted on www.rapidrecallexchange.org, Kroger asked all of its suppliers to subscribe to the exchange by July 1. Michael
+---
+
+   721 |   0.0679 |    13.73s |     53789
+   722 |   0.0774 |    13.75s |     53784
+   723 |   0.0761 |    13.77s |     53781
+   724 |   0.1104 |    13.79s |     53779
+   725 |   0.0656 |    13.81s |     53776
+   726 |   0.0697 |    13.82s |     53776
+   727 |   0.0833 |    13.84s |     53776
+   728 |   0.0739 |    13.86s |     53779
+   729 |   0.1102 |    13.88s |     53777
+   730 |   0.0810 |    13.90s |     53776
+   731 |   0.0717 |    13.92s |     53777
+   732 |   0.0852 |    13.94s |     53776
+   733 |   0.0886 |    13.96s |     53778
+   734 |   0.0683 |    13.98s |     53778
+   735 |   0.1110 |    14.00s |     53778
+   736 |   0.0622 |    14.01s |     53781
+   737 |   0.0802 |    14.03s |     53783
+   738 |   0.0788 |    14.05s |     53783
+   739 |   0.0958 |    14.07s |     53785
+   740 |   0.0594 |    14.09s |     53789
+[val] step 740 | val_loss 9.6020
+
+--- sample [step 740] seed=1337 temp=0.8 top_k=40 ---
+The new product has the chocolate spread is being launched on 1 February and will be appear in the chilled dairy aisle next to plain Philadelphia Light. It is launching in a 160g tub and a 120g
+---
+
+   741 |   0.0727 |    14.11s |     53792
+   742 |   0.0885 |    14.12s |     53793
+   743 |   0.0691 |    14.14s |     53794
+   744 |   0.0949 |    14.16s |     53793
+   745 |   0.0630 |    14.18s |     53792
+   746 |   0.1035 |    14.20s |     53794
+   747 |   0.0764 |    14.22s |     53796
+   748 |   0.0981 |    14.24s |     53799
+   749 |   0.1096 |    14.26s |     53801
+   750 |   0.0796 |    14.28s |     53800
+   751 |   0.0781 |    14.29s |     53802
+   752 |   0.0992 |    14.31s |     53803
+   753 |   0.1052 |    14.33s |     53800
+   754 |   0.0572 |    14.35s |     53795
+   755 |   0.0621 |    14.37s |     53793
+   756 |   0.0855 |    14.39s |     53790
+   757 |   0.0790 |    14.41s |     53788
+   758 |   0.0602 |    14.43s |     53783
+   759 |   0.0647 |    14.45s |     53780
+   760 |   0.0977 |    14.47s |     53777
+[val] step 760 | val_loss 9.6098
+
+--- sample [step 760] seed=1337 temp=0.8 top_k=40 ---
+The new product would have “The breakfast occasion. In Germany, Philadelphia with Milka has generated €22.2m in sales since its October 2010 launch and has a 6.6% value share
+---
+
+   761 |   0.0840 |    14.49s |     53775
+   762 |   0.0584 |    14.51s |     53776
+   763 |   0.0768 |    14.53s |     53772
+   764 |   0.0639 |    14.55s |     53768
+   765 |   0.0799 |    14.57s |     53765
+   766 |   0.0675 |    14.59s |     53765
+   767 |   0.0696 |    14.61s |     53766
+   768 |   0.0798 |    14.63s |     53762
+   769 |   0.0910 |    14.65s |     53758
+   770 |   0.0827 |    14.67s |     53754
+   771 |   0.0761 |    14.69s |     53752
+   772 |   0.0794 |    14.71s |     53754
+   773 |   0.0713 |    14.73s |     53753
+   774 |   0.0657 |    14.74s |     53754
+   775 |   0.0647 |    14.76s |     53752
+   776 |   0.0728 |    14.78s |     53751
+   777 |   0.0873 |    14.80s |     53753
+   778 |   0.0871 |    14.82s |     53751
+   779 |   0.0891 |    14.84s |     53753
+   780 |   0.0869 |    14.86s |     53752
+[val] step 780 | val_loss 9.6242
+
+--- sample [step 780] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+   781 |   0.0651 |    14.88s |     53752
+   782 |   0.0675 |    14.90s |     53750
+   783 |   0.0646 |    14.92s |     53749
+   784 |   0.0596 |    14.94s |     53748
+   785 |   0.0794 |    14.96s |     53744
+   786 |   0.0813 |    14.98s |     53745
+   787 |   0.0440 |    14.99s |     53745
+   788 |   0.0900 |    15.01s |     53744
+   789 |   0.0660 |    15.03s |     53745
+   790 |   0.0572 |    15.05s |     53745
+   791 |   0.0713 |    15.07s |     53744
+   792 |   0.0790 |    15.09s |     53743
+   793 |   0.0801 |    15.11s |     53741
+   794 |   0.0949 |    15.13s |     53743
+   795 |   0.0665 |    15.15s |     53741
+   796 |   0.0647 |    15.17s |     53742
+   797 |   0.0697 |    15.19s |     53739
+   798 |   0.0757 |    15.21s |     53740
+   799 |   0.0683 |    15.22s |     53741
+   800 |   0.0633 |    15.24s |     53740
+[val] step 800 | val_loss 9.5697
+
+--- sample [step 800] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+   801 |   0.1037 |    15.26s |     53740
+   802 |   0.0783 |    15.28s |     53742
+   803 |   0.0656 |    15.30s |     53741
+   804 |   0.0757 |    15.32s |     53740
+   805 |   0.0858 |    15.34s |     53739
+   806 |   0.0951 |    15.36s |     53738
+   807 |   0.0924 |    15.38s |     53735
+   808 |   0.0847 |    15.40s |     53737
+   809 |   0.0919 |    15.42s |     53737
+   810 |   0.0841 |    15.43s |     53739
+   811 |   0.0780 |    15.45s |     53737
+   812 |   0.0828 |    15.47s |     53734
+   813 |   0.0570 |    15.49s |     53732
+   814 |   0.0712 |    15.51s |     53729
+   815 |   0.0507 |    15.53s |     53729
+   816 |   0.1032 |    15.55s |     53728
+   817 |   0.0803 |    15.57s |     53725
+   818 |   0.0893 |    15.59s |     53721
+   819 |   0.0611 |    15.61s |     53717
+   820 |   0.0643 |    15.63s |     53716
+[val] step 820 | val_loss 9.7861
+
+--- sample [step 820] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+   821 |   0.1062 |    15.65s |     53714
+   822 |   0.0600 |    15.67s |     53713
+   823 |   0.0587 |    15.69s |     53708
+   824 |   0.0527 |    15.71s |     53705
+   825 |   0.0835 |    15.73s |     53703
+   826 |   0.0597 |    15.75s |     53699
+   827 |   0.0810 |    15.77s |     53696
+   828 |   0.0617 |    15.79s |     53693
+   829 |   0.0994 |    15.81s |     53689
+   830 |   0.0778 |    15.83s |     53687
+   831 |   0.0673 |    15.85s |     53683
+   832 |   0.0964 |    15.87s |     53679
+   833 |   0.0868 |    15.89s |     53680
+   834 |   0.0746 |    15.91s |     53678
+   835 |   0.0833 |    15.93s |     53675
+   836 |   0.0667 |    15.95s |     53673
+   837 |   0.0627 |    15.97s |     53668
+   838 |   0.0729 |    15.99s |     53663
+   839 |   0.0684 |    16.01s |     53660
+   840 |   0.0698 |    16.03s |     53654
+[val] step 840 | val_loss 9.6023
+
+--- sample [step 840] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+   841 |   0.0715 |    16.05s |     53650
+   842 |   0.0773 |    16.07s |     53648
+   843 |   0.0806 |    16.09s |     53646
+   844 |   0.0506 |    16.11s |     53641
+   845 |   0.0722 |    16.13s |     53639
+   846 |   0.0828 |    16.15s |     53636
+   847 |   0.0696 |    16.17s |     53635
+   848 |   0.0764 |    16.19s |     53632
+   849 |   0.0622 |    16.21s |     53632
+   850 |   0.0799 |    16.23s |     53630
+   851 |   0.0659 |    16.25s |     53628
+   852 |   0.0638 |    16.27s |     53627
+   853 |   0.0887 |    16.29s |     53627
+   854 |   0.0597 |    16.31s |     53626
+   855 |   0.0812 |    16.33s |     53626
+   856 |   0.0706 |    16.35s |     53625
+   857 |   0.0517 |    16.37s |     53621
+   858 |   0.0953 |    16.39s |     53620
+   859 |   0.0627 |    16.41s |     53616
+   860 |   0.0806 |    16.42s |     53619
+[val] step 860 | val_loss 9.8196
+
+--- sample [step 860] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+   861 |   0.0681 |    16.44s |     53617
+   862 |   0.0989 |    16.46s |     53616
+   863 |   0.0692 |    16.48s |     53617
+   864 |   0.0509 |    16.50s |     53620
+   865 |   0.0893 |    16.52s |     53622
+   866 |   0.0552 |    16.54s |     53624
+   867 |   0.0544 |    16.56s |     53625
+   868 |   0.0565 |    16.58s |     53625
+   869 |   0.0746 |    16.59s |     53624
+   870 |   0.1002 |    16.61s |     53624
+   871 |   0.0466 |    16.63s |     53626
+   872 |   0.0646 |    16.65s |     53617
+   873 |   0.0817 |    16.68s |     53603
+   874 |   0.0744 |    16.70s |     53598
+   875 |   0.0739 |    16.72s |     53599
+   876 |   0.0811 |    16.74s |     53595
+   877 |   0.0645 |    16.76s |     53593
+   878 |   0.0678 |    16.78s |     53595
+   879 |   0.0519 |    16.79s |     53598
+   880 |   0.0571 |    16.81s |     53598
+[val] step 880 | val_loss 9.6707
+
+--- sample [step 880] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. If they reached this volume of sales, the new Philadelphia with Cadbury would have the same market value
+---
+
+   881 |   0.0738 |    16.83s |     53599
+   882 |   0.0575 |    16.85s |     53593
+   883 |   0.0828 |    16.87s |     53593
+   884 |   0.0601 |    16.89s |     53591
+   885 |   0.0396 |    16.91s |     53592
+   886 |   0.0609 |    16.93s |     53593
+   887 |   0.0918 |    16.95s |     53594
+   888 |   0.0739 |    16.97s |     53594
+   889 |   0.0623 |    16.99s |     53595
+   890 |   0.1013 |    17.00s |     53596
+   891 |   0.0635 |    17.02s |     53597
+   892 |   0.0470 |    17.04s |     53598
+   893 |   0.0662 |    17.06s |     53599
+   894 |   0.0894 |    17.08s |     53602
+   895 |   0.0728 |    17.10s |     53606
+   896 |   0.0794 |    17.12s |     53607
+   897 |   0.0627 |    17.13s |     53608
+   898 |   0.0597 |    17.15s |     53609
+   899 |   0.0523 |    17.17s |     53612
+   900 |   0.0619 |    17.19s |     53614
+[val] step 900 | val_loss 9.8447
+
+--- sample [step 900] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 2010 launch and has a 6.
+---
+
+   901 |   0.0629 |    17.21s |     53619
+   902 |   0.0623 |    17.23s |     53620
+   903 |   0.0958 |    17.24s |     53621
+   904 |   0.0628 |    17.26s |     53626
+   905 |   0.0388 |    17.28s |     53626
+   906 |   0.0870 |    17.30s |     53627
+   907 |   0.0822 |    17.32s |     53626
+   908 |   0.0668 |    17.34s |     53628
+   909 |   0.0710 |    17.36s |     53625
+   910 |   0.0615 |    17.38s |     53625
+   911 |   0.0676 |    17.40s |     53625
+   912 |   0.0745 |    17.42s |     53622
+   913 |   0.0523 |    17.44s |     53621
+   914 |   0.0530 |    17.46s |     53618
+   915 |   0.0668 |    17.48s |     53615
+   916 |   0.0634 |    17.50s |     53614
+   917 |   0.0670 |    17.51s |     53617
+   918 |   0.0657 |    17.53s |     53615
+   919 |   0.0484 |    17.55s |     53615
+   920 |   0.0787 |    17.57s |     53612
+[val] step 920 | val_loss 9.7500
+
+--- sample [step 920] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+   921 |   0.0532 |    17.59s |     53607
+   922 |   0.0560 |    17.61s |     53607
+   923 |   0.0847 |    17.63s |     53604
+   924 |   0.0686 |    17.65s |     53600
+   925 |   0.0510 |    17.67s |     53597
+   926 |   0.0891 |    17.69s |     53595
+   927 |   0.0672 |    17.71s |     53594
+   928 |   0.0754 |    17.73s |     53592
+   929 |   0.0519 |    17.75s |     53586
+   930 |   0.0799 |    17.77s |     53579
+   931 |   0.0489 |    17.79s |     53576
+   932 |   0.0560 |    17.81s |     53574
+   933 |   0.0616 |    17.83s |     53572
+   934 |   0.0612 |    17.85s |     53568
+   935 |   0.0542 |    17.87s |     53567
+   936 |   0.0568 |    17.89s |     53566
+   937 |   0.0681 |    17.91s |     53561
+   938 |   0.0611 |    17.93s |     53558
+   939 |   0.0755 |    17.95s |     53558
+   940 |   0.0713 |    17.97s |     53554
+[val] step 940 | val_loss 10.0296
+
+--- sample [step 940] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+   941 |   0.0942 |    17.99s |     53554
+   942 |   0.0594 |    18.01s |     53547
+   943 |   0.0567 |    18.03s |     53542
+   944 |   0.0630 |    18.06s |     53538
+   945 |   0.0660 |    18.07s |     53541
+   946 |   0.0553 |    18.09s |     53537
+   947 |   0.0676 |    18.11s |     53536
+   948 |   0.0756 |    18.13s |     53536
+   949 |   0.0950 |    18.15s |     53531
+   950 |   0.0547 |    18.17s |     53531
+   951 |   0.0720 |    18.19s |     53529
+   952 |   0.0660 |    18.21s |     53529
+   953 |   0.0766 |    18.23s |     53530
+   954 |   0.0547 |    18.25s |     53530
+   955 |   0.0620 |    18.27s |     53526
+   956 |   0.0693 |    18.29s |     53524
+   957 |   0.0997 |    18.31s |     53524
+   958 |   0.0665 |    18.33s |     53520
+   959 |   0.0777 |    18.35s |     53517
+   960 |   0.0579 |    18.37s |     53513
+[val] step 960 | val_loss 10.0084
+
+--- sample [step 960] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+   961 |   0.0605 |    18.39s |     53508
+   962 |   0.0634 |    18.41s |     53511
+   963 |   0.0584 |    18.43s |     53507
+   964 |   0.0796 |    18.45s |     53506
+   965 |   0.0654 |    18.47s |     53506
+   966 |   0.0561 |    18.49s |     53506
+   967 |   0.0658 |    18.51s |     53503
+   968 |   0.1060 |    18.53s |     53502
+   969 |   0.0558 |    18.55s |     53498
+   970 |   0.0817 |    18.57s |     53496
+   971 |   0.0923 |    18.59s |     53494
+   972 |   0.0682 |    18.61s |     53491
+   973 |   0.0608 |    18.63s |     53487
+   974 |   0.0553 |    18.65s |     53486
+   975 |   0.0793 |    18.67s |     53483
+   976 |   0.0874 |    18.69s |     53483
+   977 |   0.0829 |    18.71s |     53482
+   978 |   0.0796 |    18.73s |     53481
+   979 |   0.0635 |    18.75s |     53478
+   980 |   0.0687 |    18.77s |     53476
+[val] step 980 | val_loss 9.8488
+
+--- sample [step 980] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+   981 |   0.0546 |    18.78s |     53476
+   982 |   0.0747 |    18.80s |     53476
+   983 |   0.0579 |    18.82s |     53474
+   984 |   0.0734 |    18.84s |     53473
+   985 |   0.0851 |    18.86s |     53472
+   986 |   0.0655 |    18.88s |     53468
+   987 |   0.0662 |    18.90s |     53469
+   988 |   0.0564 |    18.92s |     53469
+   989 |   0.0879 |    18.94s |     53463
+   990 |   0.0672 |    18.96s |     53460
+   991 |   0.0663 |    18.98s |     53459
+   992 |   0.0527 |    19.00s |     53459
+   993 |   0.0521 |    19.02s |     53458
+   994 |   0.0662 |    19.04s |     53456
+   995 |   0.0884 |    19.06s |     53452
+   996 |   0.0675 |    19.08s |     53454
+   997 |   0.0548 |    19.10s |     53451
+   998 |   0.0679 |    19.12s |     53452
+   999 |   0.0656 |    19.14s |     53450
+  1000 |   0.0880 |    19.16s |     53450
+[val] step 1000 | val_loss 9.9070
+
+--- sample [step 1000] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1001 |   0.0471 |    19.18s |     53449
+  1002 |   0.0613 |    19.20s |     53448
+  1003 |   0.0652 |    19.22s |     53444
+  1004 |   0.0637 |    19.24s |     53441
+  1005 |   0.0835 |    19.26s |     53438
+  1006 |   0.0719 |    19.28s |     53437
+  1007 |   0.0784 |    19.30s |     53436
+  1008 |   0.0632 |    19.32s |     53434
+  1009 |   0.0696 |    19.34s |     53433
+  1010 |   0.0695 |    19.36s |     53430
+  1011 |   0.0747 |    19.38s |     53428
+  1012 |   0.0690 |    19.40s |     53426
+  1013 |   0.0610 |    19.42s |     53422
+  1014 |   0.0419 |    19.44s |     53418
+  1015 |   0.0784 |    19.46s |     53420
+  1016 |   0.0715 |    19.48s |     53415
+  1017 |   0.0762 |    19.50s |     53414
+  1018 |   0.0777 |    19.52s |     53410
+  1019 |   0.0599 |    19.54s |     53404
+  1020 |   0.0664 |    19.56s |     53399
+[val] step 1020 | val_loss 9.8415
+
+--- sample [step 1020] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  1021 |   0.0808 |    19.58s |     53398
+  1022 |   0.0948 |    19.60s |     53397
+  1023 |   0.0613 |    19.62s |     53396
+  1024 |   0.0775 |    19.64s |     53396
+  1025 |   0.0595 |    19.66s |     53392
+  1026 |   0.0754 |    19.68s |     53389
+  1027 |   0.0634 |    19.70s |     53387
+  1028 |   0.0626 |    19.72s |     53383
+  1029 |   0.0565 |    19.74s |     53383
+  1030 |   0.0801 |    19.76s |     53379
+  1031 |   0.0842 |    19.78s |     53378
+  1032 |   0.0805 |    19.80s |     53375
+  1033 |   0.0472 |    19.82s |     53374
+  1034 |   0.0512 |    19.84s |     53373
+  1035 |   0.0669 |    19.86s |     53372
+  1036 |   0.0712 |    19.88s |     53370
+  1037 |   0.0648 |    19.90s |     53369
+  1038 |   0.0620 |    19.92s |     53368
+  1039 |   0.0526 |    19.94s |     53367
+  1040 |   0.0456 |    19.96s |     53366
+[val] step 1040 | val_loss 9.7235
+
+--- sample [step 1040] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to a 160g tub and a 120g four-pack of 120g four-pack of mini tubs, both with an rsp of £1.62. Kraft is supporting the
+---
+
+  1041 |   0.0562 |    19.97s |     53367
+  1042 |   0.0587 |    19.99s |     53366
+  1043 |   0.0707 |    20.01s |     53365
+  1044 |   0.0841 |    20.03s |     53365
+  1045 |   0.0483 |    20.05s |     53364
+  1046 |   0.0592 |    20.07s |     53364
+  1047 |   0.0698 |    20.09s |     53365
+  1048 |   0.0555 |    20.11s |     53365
+  1049 |   0.0656 |    20.13s |     53367
+  1050 |   0.0788 |    20.15s |     53368
+  1051 |   0.0765 |    20.17s |     53370
+  1052 |   0.0731 |    20.19s |     53368
+  1053 |   0.0632 |    20.20s |     53368
+  1054 |   0.0731 |    20.22s |     53368
+  1055 |   0.0637 |    20.24s |     53368
+  1056 |   0.0821 |    20.26s |     53366
+  1057 |   0.0680 |    20.28s |     53366
+  1058 |   0.0815 |    20.30s |     53365
+  1059 |   0.0601 |    20.32s |     53364
+  1060 |   0.0750 |    20.34s |     53365
+[val] step 1060 | val_loss 10.0563
+
+--- sample [step 1060] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1061 |   0.0481 |    20.36s |     53366
+  1062 |   0.0707 |    20.38s |     53367
+  1063 |   0.0607 |    20.40s |     53368
+  1064 |   0.0585 |    20.41s |     53372
+  1065 |   0.0607 |    20.43s |     53374
+  1066 |   0.0503 |    20.45s |     53374
+  1067 |   0.0699 |    20.47s |     53377
+  1068 |   0.0737 |    20.49s |     53378
+  1069 |   0.0341 |    20.51s |     53378
+  1070 |   0.0481 |    20.53s |     53378
+  1071 |   0.0452 |    20.55s |     53379
+  1072 |   0.0767 |    20.56s |     53381
+  1073 |   0.0699 |    20.58s |     53378
+  1074 |   0.0865 |    20.60s |     53378
+  1075 |   0.0734 |    20.62s |     53377
+  1076 |   0.0653 |    20.64s |     53379
+  1077 |   0.0664 |    20.66s |     53380
+  1078 |   0.0728 |    20.68s |     53381
+  1079 |   0.0701 |    20.70s |     53382
+  1080 |   0.0750 |    20.72s |     53381
+[val] step 1080 | val_loss 10.0196
+
+--- sample [step 1080] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1081 |   0.0786 |    20.74s |     53383
+  1082 |   0.0736 |    20.75s |     53384
+  1083 |   0.0809 |    20.77s |     53387
+  1084 |   0.0848 |    20.79s |     53388
+  1085 |   0.0721 |    20.81s |     53391
+  1086 |   0.0752 |    20.83s |     53393
+  1087 |   0.0606 |    20.85s |     53396
+  1088 |   0.0625 |    20.86s |     53399
+  1089 |   0.0682 |    20.88s |     53401
+  1090 |   0.0739 |    20.90s |     53402
+  1091 |   0.0766 |    20.92s |     53402
+  1092 |   0.0529 |    20.94s |     53403
+  1093 |   0.0663 |    20.96s |     53403
+  1094 |   0.0647 |    20.98s |     53402
+  1095 |   0.0584 |    21.00s |     53403
+  1096 |   0.0790 |    21.02s |     53400
+  1097 |   0.0713 |    21.04s |     53402
+  1098 |   0.0668 |    21.05s |     53401
+  1099 |   0.0598 |    21.07s |     53399
+  1100 |   0.0503 |    21.09s |     53401
+[val] step 1100 | val_loss 10.0573
+
+--- sample [step 1100] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1101 |   0.0845 |    21.11s |     53400
+  1102 |   0.0639 |    21.13s |     53398
+  1103 |   0.0662 |    21.15s |     53397
+  1104 |   0.0579 |    21.17s |     53393
+  1105 |   0.0534 |    21.19s |     53391
+  1106 |   0.0569 |    21.21s |     53390
+  1107 |   0.0591 |    21.23s |     53387
+  1108 |   0.0662 |    21.25s |     53386
+  1109 |   0.0639 |    21.27s |     53386
+  1110 |   0.0717 |    21.29s |     53383
+  1111 |   0.0596 |    21.31s |     53383
+  1112 |   0.0691 |    21.33s |     53382
+  1113 |   0.0531 |    21.35s |     53378
+  1114 |   0.0712 |    21.37s |     53374
+  1115 |   0.0799 |    21.39s |     53374
+  1116 |   0.0844 |    21.41s |     53374
+  1117 |   0.0716 |    21.43s |     53371
+  1118 |   0.0470 |    21.45s |     53368
+  1119 |   0.0576 |    21.47s |     53364
+  1120 |   0.0627 |    21.49s |     53362
+[val] step 1120 | val_loss 9.9256
+
+--- sample [step 1120] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1121 |   0.0661 |    21.51s |     53357
+  1122 |   0.0738 |    21.53s |     53353
+  1123 |   0.0652 |    21.55s |     53352
+  1124 |   0.0894 |    21.57s |     53350
+  1125 |   0.0565 |    21.59s |     53350
+  1126 |   0.0572 |    21.61s |     53349
+  1127 |   0.0508 |    21.63s |     53351
+  1128 |   0.0710 |    21.65s |     53349
+  1129 |   0.0527 |    21.67s |     53351
+  1130 |   0.0817 |    21.69s |     53352
+  1131 |   0.0616 |    21.71s |     53354
+  1132 |   0.0756 |    21.73s |     53353
+  1133 |   0.0708 |    21.75s |     53354
+  1134 |   0.0694 |    21.77s |     53352
+  1135 |   0.0892 |    21.78s |     53354
+  1136 |   0.0818 |    21.80s |     53353
+  1137 |   0.0742 |    21.82s |     53354
+  1138 |   0.0651 |    21.84s |     53354
+  1139 |   0.0572 |    21.86s |     53355
+  1140 |   0.0774 |    21.88s |     53356
+[val] step 1140 | val_loss 9.9720
+
+--- sample [step 1140] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1141 |   0.0606 |    21.90s |     53356
+  1142 |   0.0505 |    21.92s |     53354
+  1143 |   0.0841 |    21.94s |     53354
+  1144 |   0.0842 |    21.96s |     53353
+  1145 |   0.0822 |    21.98s |     53353
+  1146 |   0.0682 |    21.99s |     53354
+  1147 |   0.0821 |    22.01s |     53356
+  1148 |   0.0701 |    22.03s |     53357
+  1149 |   0.0601 |    22.05s |     53358
+  1150 |   0.0686 |    22.07s |     53359
+  1151 |   0.0711 |    22.09s |     53360
+  1152 |   0.0720 |    22.11s |     53361
+  1153 |   0.0762 |    22.13s |     53362
+  1154 |   0.0605 |    22.14s |     53366
+  1155 |   0.0727 |    22.16s |     53365
+  1156 |   0.0772 |    22.18s |     53365
+  1157 |   0.0553 |    22.20s |     53364
+  1158 |   0.0770 |    22.22s |     53365
+  1159 |   0.0783 |    22.24s |     53364
+  1160 |   0.0523 |    22.26s |     53365
+[val] step 1160 | val_loss 9.9504
+
+--- sample [step 1160] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1161 |   0.0799 |    22.28s |     53366
+  1162 |   0.0673 |    22.30s |     53362
+  1163 |   0.0666 |    22.32s |     53362
+  1164 |   0.0805 |    22.34s |     53363
+  1165 |   0.0657 |    22.36s |     53361
+  1166 |   0.0699 |    22.38s |     53361
+  1167 |   0.0785 |    22.40s |     53359
+  1168 |   0.0649 |    22.42s |     53355
+  1169 |   0.0517 |    22.44s |     53354
+  1170 |   0.0692 |    22.46s |     53352
+  1171 |   0.0688 |    22.48s |     53351
+  1172 |   0.0640 |    22.50s |     53348
+  1173 |   0.0422 |    22.52s |     53347
+  1174 |   0.0629 |    22.54s |     53344
+  1175 |   0.0676 |    22.56s |     53342
+  1176 |   0.0579 |    22.58s |     53340
+  1177 |   0.0628 |    22.60s |     53339
+  1178 |   0.0585 |    22.62s |     53337
+  1179 |   0.0493 |    22.64s |     53335
+  1180 |   0.0640 |    22.66s |     53332
+[val] step 1180 | val_loss 9.9662
+
+--- sample [step 1180] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1181 |   0.0718 |    22.68s |     53333
+  1182 |   0.0665 |    22.70s |     53328
+  1183 |   0.0672 |    22.72s |     53326
+  1184 |   0.0707 |    22.74s |     53324
+  1185 |   0.0500 |    22.76s |     53323
+  1186 |   0.0762 |    22.78s |     53324
+  1187 |   0.0762 |    22.80s |     53322
+  1188 |   0.0782 |    22.82s |     53319
+  1189 |   0.0605 |    22.84s |     53317
+  1190 |   0.0706 |    22.85s |     53319
+  1191 |   0.0656 |    22.87s |     53316
+  1192 |   0.0617 |    22.89s |     53315
+  1193 |   0.0762 |    22.91s |     53312
+  1194 |   0.0541 |    22.94s |     53308
+  1195 |   0.0804 |    22.95s |     53308
+  1196 |   0.0618 |    22.97s |     53308
+  1197 |   0.0554 |    22.99s |     53308
+  1198 |   0.0739 |    23.01s |     53304
+  1199 |   0.0528 |    23.03s |     53306
+  1200 |   0.0720 |    23.05s |     53306
+[val] step 1200 | val_loss 9.8972
+
+--- sample [step 1200] seed=1337 temp=0.8 top_k=40 ---
+The new product product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in
+---
+
+  1201 |   0.0644 |    23.07s |     53305
+  1202 |   0.0564 |    23.09s |     53305
+  1203 |   0.0617 |    23.11s |     53302
+  1204 |   0.0878 |    23.13s |     53303
+  1205 |   0.0584 |    23.15s |     53302
+  1206 |   0.0625 |    23.17s |     53301
+  1207 |   0.0609 |    23.19s |     53298
+  1208 |   0.0628 |    23.21s |     53298
+  1209 |   0.0576 |    23.23s |     53296
+  1210 |   0.0875 |    23.25s |     53297
+  1211 |   0.0431 |    23.27s |     53296
+  1212 |   0.0591 |    23.29s |     53296
+  1213 |   0.0539 |    23.31s |     53295
+  1214 |   0.0527 |    23.32s |     53296
+  1215 |   0.0574 |    23.35s |     53294
+  1216 |   0.0749 |    23.37s |     53292
+  1217 |   0.0775 |    23.38s |     53291
+  1218 |   0.0757 |    23.40s |     53290
+  1219 |   0.0603 |    23.42s |     53289
+  1220 |   0.0549 |    23.44s |     53289
+[val] step 1220 | val_loss 10.3035
+
+--- sample [step 1220] seed=1337 temp=0.8 top_k=40 ---
+The new product has the chocolate spread made from Philadelphia Light and Cadbury chocolate. Kraft believes the new product has the potential to do very well and is targeting £10m in sales in the first year. The new
+---
+
+  1221 |   0.0438 |    23.46s |     53288
+  1222 |   0.0647 |    23.48s |     53286
+  1223 |   0.0821 |    23.50s |     53286
+  1224 |   0.0489 |    23.52s |     53282
+  1225 |   0.0646 |    23.54s |     53282
+  1226 |   0.0920 |    23.56s |     53281
+  1227 |   0.0524 |    23.58s |     53279
+  1228 |   0.0390 |    23.60s |     53277
+  1229 |   0.0454 |    23.62s |     53276
+  1230 |   0.0766 |    23.64s |     53274
+  1231 |   0.0619 |    23.66s |     53273
+  1232 |   0.0661 |    23.68s |     53269
+  1233 |   0.0729 |    23.70s |     53267
+  1234 |   0.0582 |    23.72s |     53265
+  1235 |   0.0733 |    23.74s |     53263
+  1236 |   0.0616 |    23.76s |     53264
+  1237 |   0.0741 |    23.78s |     53262
+  1238 |   0.0699 |    23.80s |     53262
+  1239 |   0.0694 |    23.82s |     53262
+  1240 |   0.0536 |    23.84s |     53261
+[val] step 1240 | val_loss 10.0372
+
+--- sample [step 1240] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1241 |   0.0722 |    23.86s |     53260
+  1242 |   0.0565 |    23.88s |     53260
+  1243 |   0.0788 |    23.90s |     53261
+  1244 |   0.0885 |    23.92s |     53261
+  1245 |   0.0366 |    23.94s |     53260
+  1246 |   0.0810 |    23.96s |     53258
+  1247 |   0.0726 |    23.98s |     53257
+  1248 |   0.0673 |    24.00s |     53256
+  1249 |   0.0537 |    24.02s |     53251
+  1250 |   0.0748 |    24.04s |     53250
+  1251 |   0.0608 |    24.06s |     53250
+  1252 |   0.0694 |    24.08s |     53249
+  1253 |   0.0646 |    24.10s |     53248
+  1254 |   0.0562 |    24.12s |     53242
+  1255 |   0.0360 |    24.14s |     53239
+  1256 |   0.0663 |    24.16s |     53239
+  1257 |   0.0639 |    24.18s |     53240
+  1258 |   0.0637 |    24.20s |     53241
+  1259 |   0.0480 |    24.22s |     53240
+  1260 |   0.0420 |    24.23s |     53240
+[val] step 1260 | val_loss 10.2390
+
+--- sample [step 1260] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1261 |   0.0534 |    24.25s |     53242
+  1262 |   0.0493 |    24.27s |     53242
+  1263 |   0.0516 |    24.29s |     53240
+  1264 |   0.0739 |    24.31s |     53240
+  1265 |   0.0656 |    24.33s |     53238
+  1266 |   0.0496 |    24.35s |     53238
+  1267 |   0.0863 |    24.37s |     53238
+  1268 |   0.0600 |    24.39s |     53237
+  1269 |   0.0498 |    24.41s |     53235
+  1270 |   0.0704 |    24.43s |     53231
+  1271 |   0.0472 |    24.45s |     53230
+  1272 |   0.0439 |    24.47s |     53227
+  1273 |   0.0430 |    24.49s |     53226
+  1274 |   0.0736 |    24.51s |     53223
+  1275 |   0.0624 |    24.53s |     53223
+  1276 |   0.0975 |    24.55s |     53223
+  1277 |   0.0498 |    24.57s |     53223
+  1278 |   0.0651 |    24.59s |     53221
+  1279 |   0.0634 |    24.61s |     53219
+  1280 |   0.0522 |    24.63s |     53217
+[val] step 1280 | val_loss 9.9953
+
+--- sample [step 1280] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1281 |   0.0786 |    24.65s |     53216
+  1282 |   0.0577 |    24.67s |     53213
+  1283 |   0.0446 |    24.69s |     53212
+  1284 |   0.0546 |    24.71s |     53210
+  1285 |   0.0804 |    24.73s |     53209
+  1286 |   0.0498 |    24.75s |     53209
+  1287 |   0.0514 |    24.77s |     53208
+  1288 |   0.0415 |    24.79s |     53206
+  1289 |   0.0564 |    24.81s |     53205
+  1290 |   0.0532 |    24.83s |     53204
+  1291 |   0.0626 |    24.85s |     53206
+  1292 |   0.0719 |    24.87s |     53202
+  1293 |   0.0528 |    24.89s |     53201
+  1294 |   0.0697 |    24.91s |     53200
+  1295 |   0.0593 |    24.93s |     53200
+  1296 |   0.0662 |    24.95s |     53200
+  1297 |   0.0656 |    24.96s |     53200
+  1298 |   0.0244 |    24.99s |     53196
+  1299 |   0.0710 |    25.01s |     53194
+  1300 |   0.0849 |    25.03s |     53194
+[val] step 1300 | val_loss 10.2389
+
+--- sample [step 1300] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1301 |   0.0466 |    25.04s |     53194
+  1302 |   0.0663 |    25.06s |     53192
+  1303 |   0.0750 |    25.08s |     53192
+  1304 |   0.0599 |    25.10s |     53191
+  1305 |   0.0436 |    25.12s |     53191
+  1306 |   0.0539 |    25.14s |     53188
+  1307 |   0.0741 |    25.16s |     53186
+  1308 |   0.0699 |    25.18s |     53186
+  1309 |   0.0502 |    25.20s |     53185
+  1310 |   0.0725 |    25.22s |     53183
+  1311 |   0.0642 |    25.24s |     53181
+  1312 |   0.0410 |    25.26s |     53181
+  1313 |   0.0367 |    25.28s |     53181
+  1314 |   0.0405 |    25.30s |     53179
+  1315 |   0.0647 |    25.32s |     53178
+  1316 |   0.0455 |    25.34s |     53179
+  1317 |   0.0438 |    25.36s |     53178
+  1318 |   0.0621 |    25.38s |     53178
+  1319 |   0.0565 |    25.40s |     53177
+  1320 |   0.0797 |    25.42s |     53177
+[val] step 1320 | val_loss 9.9659
+
+--- sample [step 1320] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1321 |   0.0559 |    25.44s |     53178
+  1322 |   0.0658 |    25.46s |     53175
+  1323 |   0.0284 |    25.48s |     53173
+  1324 |   0.0529 |    25.50s |     53172
+  1325 |   0.0515 |    25.52s |     53170
+  1326 |   0.0517 |    25.54s |     53165
+  1327 |   0.0820 |    25.56s |     53163
+  1328 |   0.0814 |    25.58s |     53163
+  1329 |   0.0655 |    25.60s |     53162
+  1330 |   0.0715 |    25.62s |     53160
+  1331 |   0.0455 |    25.64s |     53159
+  1332 |   0.0689 |    25.66s |     53157
+  1333 |   0.0629 |    25.68s |     53156
+  1334 |   0.0530 |    25.70s |     53152
+  1335 |   0.0745 |    25.72s |     53150
+  1336 |   0.0406 |    25.74s |     53150
+  1337 |   0.0437 |    25.76s |     53150
+  1338 |   0.0583 |    25.78s |     53149
+  1339 |   0.0406 |    25.80s |     53149
+  1340 |   0.0578 |    25.82s |     53148
+[val] step 1340 | val_loss 10.1788
+
+--- sample [step 1340] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1341 |   0.0573 |    25.84s |     53145
+  1342 |   0.0436 |    25.86s |     53144
+  1343 |   0.0683 |    25.88s |     53143
+  1344 |   0.0523 |    25.90s |     53141
+  1345 |   0.0535 |    25.92s |     53139
+  1346 |   0.0412 |    25.94s |     53136
+  1347 |   0.0551 |    25.96s |     53134
+  1348 |   0.0491 |    25.98s |     53134
+  1349 |   0.0644 |    26.00s |     53134
+  1350 |   0.0461 |    26.02s |     53134
+  1351 |   0.0848 |    26.04s |     53132
+  1352 |   0.0640 |    26.06s |     53132
+  1353 |   0.0676 |    26.08s |     53132
+  1354 |   0.0338 |    26.10s |     53131
+  1355 |   0.0696 |    26.11s |     53133
+  1356 |   0.0652 |    26.13s |     53131
+  1357 |   0.0459 |    26.16s |     53128
+  1358 |   0.0538 |    26.17s |     53130
+  1359 |   0.0609 |    26.19s |     53130
+  1360 |   0.0454 |    26.21s |     53131
+[val] step 1360 | val_loss 10.1594
+
+--- sample [step 1360] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1361 |   0.0681 |    26.23s |     53130
+  1362 |   0.0813 |    26.25s |     53131
+  1363 |   0.0556 |    26.27s |     53132
+  1364 |   0.0928 |    26.29s |     53132
+  1365 |   0.0579 |    26.31s |     53133
+  1366 |   0.0617 |    26.32s |     53136
+  1367 |   0.0701 |    26.34s |     53135
+  1368 |   0.0645 |    26.36s |     53135
+  1369 |   0.0827 |    26.38s |     53135
+  1370 |   0.0596 |    26.40s |     53135
+  1371 |   0.0503 |    26.42s |     53134
+  1372 |   0.0624 |    26.44s |     53132
+  1373 |   0.0563 |    26.46s |     53131
+  1374 |   0.0434 |    26.48s |     53130
+  1375 |   0.0391 |    26.50s |     53127
+  1376 |   0.0555 |    26.52s |     53126
+  1377 |   0.0493 |    26.54s |     53126
+  1378 |   0.0694 |    26.56s |     53126
+  1379 |   0.0577 |    26.58s |     53123
+  1380 |   0.0691 |    26.60s |     53116
+[val] step 1380 | val_loss 9.8610
+
+--- sample [step 1380] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1381 |   0.0674 |    26.62s |     53114
+  1382 |   0.0542 |    26.65s |     53108
+  1383 |   0.0410 |    26.67s |     53097
+  1384 |   0.0725 |    26.69s |     53092
+  1385 |   0.0590 |    26.71s |     53090
+  1386 |   0.0307 |    26.74s |     53085
+  1387 |   0.0667 |    26.76s |     53083
+  1388 |   0.0382 |    26.78s |     53081
+  1389 |   0.0631 |    26.80s |     53080
+  1390 |   0.0853 |    26.82s |     53079
+  1391 |   0.0588 |    26.84s |     53077
+  1392 |   0.0473 |    26.86s |     53076
+  1393 |   0.0675 |    26.88s |     53075
+  1394 |   0.0572 |    26.90s |     53074
+  1395 |   0.0472 |    26.92s |     53073
+  1396 |   0.0652 |    26.94s |     53072
+  1397 |   0.0480 |    26.95s |     53072
+  1398 |   0.0721 |    26.97s |     53070
+  1399 |   0.0523 |    26.99s |     53070
+  1400 |   0.0338 |    27.01s |     53068
+[val] step 1400 | val_loss 9.9091
+
+--- sample [step 1400] seed=1337 temp=0.8 top_k=40 ---
+The new product has a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member to view this
+---
+
+  1401 |   0.0613 |    27.04s |     53065
+  1402 |   0.0602 |    27.06s |     53064
+  1403 |   0.0520 |    27.08s |     53062
+  1404 |   0.0511 |    27.10s |     53060
+  1405 |   0.0596 |    27.12s |     53058
+  1406 |   0.0863 |    27.14s |     53057
+  1407 |   0.0849 |    27.16s |     53056
+  1408 |   0.0550 |    27.18s |     53056
+  1409 |   0.0648 |    27.19s |     53055
+  1410 |   0.0776 |    27.22s |     53052
+  1411 |   0.0498 |    27.24s |     53049
+  1412 |   0.0850 |    27.26s |     53049
+  1413 |   0.0666 |    27.28s |     53049
+  1414 |   0.0599 |    27.29s |     53048
+  1415 |   0.0757 |    27.32s |     53046
+  1416 |   0.0609 |    27.33s |     53047
+  1417 |   0.0416 |    27.35s |     53047
+  1418 |   0.0628 |    27.37s |     53048
+  1419 |   0.0845 |    27.39s |     53047
+  1420 |   0.0802 |    27.41s |     53048
+[val] step 1420 | val_loss 10.0222
+
+--- sample [step 1420] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1421 |   0.0532 |    27.43s |     53048
+  1422 |   0.0816 |    27.45s |     53049
+  1423 |   0.0390 |    27.47s |     53048
+  1424 |   0.0756 |    27.49s |     53048
+  1425 |   0.0571 |    27.51s |     53048
+  1426 |   0.0698 |    27.53s |     53046
+  1427 |   0.0568 |    27.55s |     53046
+  1428 |   0.0507 |    27.57s |     53047
+  1429 |   0.0514 |    27.59s |     53045
+  1430 |   0.0600 |    27.61s |     53045
+  1431 |   0.0766 |    27.62s |     53045
+  1432 |   0.0396 |    27.64s |     53043
+  1433 |   0.0763 |    27.66s |     53042
+  1434 |   0.0471 |    27.69s |     53038
+  1435 |   0.0576 |    27.70s |     53039
+  1436 |   0.0507 |    27.72s |     53041
+  1437 |   0.0542 |    27.74s |     53039
+  1438 |   0.0486 |    27.76s |     53039
+  1439 |   0.0481 |    27.78s |     53037
+  1440 |   0.0541 |    27.80s |     53037
+[val] step 1440 | val_loss 9.8954
+
+--- sample [step 1440] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1441 |   0.0583 |    27.82s |     53038
+  1442 |   0.0519 |    27.84s |     53037
+  1443 |   0.0696 |    27.86s |     53037
+  1444 |   0.0669 |    27.88s |     53036
+  1445 |   0.0658 |    27.90s |     53036
+  1446 |   0.0812 |    27.92s |     53035
+  1447 |   0.0549 |    27.94s |     53034
+  1448 |   0.0478 |    27.96s |     53032
+  1449 |   0.0529 |    27.98s |     53030
+  1450 |   0.0728 |    28.00s |     53031
+  1451 |   0.0520 |    28.02s |     53028
+  1452 |   0.0424 |    28.04s |     53027
+  1453 |   0.0574 |    28.06s |     53027
+  1454 |   0.0783 |    28.08s |     53027
+  1455 |   0.0495 |    28.10s |     53027
+  1456 |   0.0652 |    28.12s |     53025
+  1457 |   0.0536 |    28.14s |     53023
+  1458 |   0.0331 |    28.16s |     53023
+  1459 |   0.0795 |    28.18s |     53023
+  1460 |   0.0571 |    28.20s |     53021
+[val] step 1460 | val_loss 10.0925
+
+--- sample [step 1460] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1461 |   0.0661 |    28.22s |     53018
+  1462 |   0.0596 |    28.24s |     53021
+  1463 |   0.0625 |    28.26s |     53021
+  1464 |   0.0524 |    28.28s |     53019
+  1465 |   0.0581 |    28.29s |     53019
+  1466 |   0.0509 |    28.31s |     53019
+  1467 |   0.0599 |    28.33s |     53019
+  1468 |   0.0626 |    28.35s |     53020
+  1469 |   0.0603 |    28.37s |     53019
+  1470 |   0.0427 |    28.39s |     53019
+  1471 |   0.0673 |    28.41s |     53019
+  1472 |   0.0564 |    28.43s |     53019
+  1473 |   0.0457 |    28.45s |     53020
+  1474 |   0.0651 |    28.47s |     53022
+  1475 |   0.0485 |    28.49s |     53020
+  1476 |   0.0500 |    28.51s |     53022
+  1477 |   0.0583 |    28.53s |     53022
+  1478 |   0.0268 |    28.55s |     53019
+  1479 |   0.0575 |    28.56s |     53019
+  1480 |   0.0638 |    28.58s |     53021
+[val] step 1480 | val_loss 10.1622
+
+--- sample [step 1480] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1481 |   0.0485 |    28.60s |     53020
+  1482 |   0.0553 |    28.62s |     53021
+  1483 |   0.0515 |    28.64s |     53022
+  1484 |   0.0584 |    28.66s |     53023
+  1485 |   0.0779 |    28.68s |     53023
+  1486 |   0.0503 |    28.70s |     53025
+  1487 |   0.0402 |    28.72s |     53025
+  1488 |   0.0527 |    28.74s |     53025
+  1489 |   0.0634 |    28.75s |     53026
+  1490 |   0.0566 |    28.77s |     53027
+  1491 |   0.0654 |    28.79s |     53028
+  1492 |   0.0545 |    28.81s |     53027
+  1493 |   0.0623 |    28.83s |     53028
+  1494 |   0.0531 |    28.85s |     53029
+  1495 |   0.0373 |    28.87s |     53029
+  1496 |   0.0605 |    28.89s |     53030
+  1497 |   0.0550 |    28.91s |     53033
+  1498 |   0.0651 |    28.92s |     53035
+  1499 |   0.0546 |    28.94s |     53034
+  1500 |   0.0683 |    28.96s |     53033
+[val] step 1500 | val_loss 10.3039
+
+--- sample [step 1500] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1501 |   0.0652 |    28.98s |     53034
+  1502 |   0.0682 |    29.00s |     53036
+  1503 |   0.0607 |    29.02s |     53035
+  1504 |   0.0610 |    29.04s |     53036
+  1505 |   0.0523 |    29.06s |     53037
+  1506 |   0.0513 |    29.07s |     53040
+  1507 |   0.0333 |    29.09s |     53042
+  1508 |   0.0634 |    29.11s |     53043
+  1509 |   0.0469 |    29.13s |     53044
+  1510 |   0.0506 |    29.15s |     53045
+  1511 |   0.0625 |    29.17s |     53045
+  1512 |   0.0448 |    29.19s |     53047
+  1513 |   0.0624 |    29.21s |     53048
+  1514 |   0.0545 |    29.22s |     53049
+  1515 |   0.0810 |    29.24s |     53050
+  1516 |   0.0583 |    29.26s |     53049
+  1517 |   0.0523 |    29.28s |     53051
+  1518 |   0.0526 |    29.30s |     53052
+  1519 |   0.0475 |    29.32s |     53053
+  1520 |   0.0726 |    29.34s |     53055
+[val] step 1520 | val_loss 10.3941
+
+--- sample [step 1520] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1521 |   0.0569 |    29.36s |     53056
+  1522 |   0.0703 |    29.38s |     53056
+  1523 |   0.0486 |    29.39s |     53058
+  1524 |   0.0685 |    29.41s |     53060
+  1525 |   0.0510 |    29.43s |     53062
+  1526 |   0.0889 |    29.45s |     53062
+  1527 |   0.0645 |    29.47s |     53063
+  1528 |   0.0622 |    29.49s |     53065
+  1529 |   0.0424 |    29.51s |     53065
+  1530 |   0.0484 |    29.52s |     53067
+  1531 |   0.0745 |    29.54s |     53067
+  1532 |   0.0454 |    29.56s |     53068
+  1533 |   0.0567 |    29.58s |     53068
+  1534 |   0.0529 |    29.60s |     53069
+  1535 |   0.0444 |    29.62s |     53070
+  1536 |   0.0617 |    29.64s |     53070
+  1537 |   0.0538 |    29.66s |     53071
+  1538 |   0.0692 |    29.67s |     53073
+  1539 |   0.0690 |    29.69s |     53073
+  1540 |   0.0634 |    29.71s |     53074
+[val] step 1540 | val_loss 10.2302
+
+--- sample [step 1540] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  1541 |   0.0669 |    29.73s |     53075
+  1542 |   0.0702 |    29.75s |     53076
+  1543 |   0.0580 |    29.77s |     53077
+  1544 |   0.0387 |    29.79s |     53078
+  1545 |   0.0642 |    29.81s |     53079
+  1546 |   0.0787 |    29.83s |     53079
+  1547 |   0.0540 |    29.84s |     53080
+  1548 |   0.0673 |    29.86s |     53081
+  1549 |   0.0535 |    29.88s |     53082
+  1550 |   0.0561 |    29.90s |     53083
+  1551 |   0.0681 |    29.92s |     53083
+  1552 |   0.0525 |    29.94s |     53084
+  1553 |   0.0447 |    29.96s |     53086
+  1554 |   0.0621 |    29.98s |     53086
+  1555 |   0.0546 |    29.99s |     53088
+  1556 |   0.0587 |    30.01s |     53089
+  1557 |   0.0758 |    30.03s |     53091
+  1558 |   0.0541 |    30.05s |     53093
+  1559 |   0.0672 |    30.07s |     53092
+  1560 |   0.0582 |    30.09s |     53093
+[val] step 1560 | val_loss 10.3302
+
+--- sample [step 1560] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1561 |   0.0744 |    30.11s |     53093
+  1562 |   0.0544 |    30.12s |     53095
+  1563 |   0.0894 |    30.14s |     53097
+  1564 |   0.0577 |    30.16s |     53098
+  1565 |   0.0573 |    30.18s |     53100
+  1566 |   0.0592 |    30.20s |     53102
+  1567 |   0.0626 |    30.22s |     53104
+  1568 |   0.0637 |    30.23s |     53106
+  1569 |   0.0554 |    30.25s |     53107
+  1570 |   0.0581 |    30.27s |     53109
+  1571 |   0.0520 |    30.29s |     53110
+  1572 |   0.0497 |    30.31s |     53112
+  1573 |   0.0680 |    30.33s |     53112
+  1574 |   0.0493 |    30.35s |     53114
+  1575 |   0.0505 |    30.36s |     53116
+  1576 |   0.0610 |    30.38s |     53115
+  1577 |   0.0535 |    30.40s |     53116
+  1578 |   0.0585 |    30.42s |     53118
+  1579 |   0.0565 |    30.44s |     53120
+  1580 |   0.0710 |    30.46s |     53122
+[val] step 1580 | val_loss 10.2393
+
+--- sample [step 1580] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1581 |   0.0713 |    30.48s |     53121
+  1582 |   0.0533 |    30.49s |     53123
+  1583 |   0.0507 |    30.51s |     53124
+  1584 |   0.0569 |    30.53s |     53125
+  1585 |   0.0374 |    30.55s |     53127
+  1586 |   0.0430 |    30.57s |     53127
+  1587 |   0.0561 |    30.59s |     53128
+  1588 |   0.0595 |    30.61s |     53131
+  1589 |   0.0517 |    30.62s |     53133
+  1590 |   0.0427 |    30.64s |     53132
+  1591 |   0.0586 |    30.66s |     53132
+  1592 |   0.0586 |    30.68s |     53134
+  1593 |   0.0464 |    30.70s |     53133
+  1594 |   0.0661 |    30.72s |     53135
+  1595 |   0.0582 |    30.74s |     53136
+  1596 |   0.0558 |    30.76s |     53132
+  1597 |   0.0628 |    30.82s |     53062
+  1598 |   0.0561 |    30.85s |     53035
+  1599 |   0.0654 |    30.87s |     53036
+  1600 |   0.0461 |    30.89s |     53037
+[val] step 1600 | val_loss 10.6327
+
+--- sample [step 1600] seed=1337 temp=0.8 top_k=40 ---
+The new product has a new cheese for the first time. The company is bringing together two of its brands and launching Philadelphia with Cadbury, a chilled chocolate spread made from Philadelphia Light and Cadbury chocolate. Kraft believes
+---
+
+  1601 |   0.0621 |    30.91s |     53039
+  1602 |   0.0422 |    30.93s |     53039
+  1603 |   0.0464 |    30.95s |     53039
+  1604 |   0.0533 |    30.97s |     53040
+  1605 |   0.0507 |    30.98s |     53044
+  1606 |   0.0457 |    31.00s |     53046
+  1607 |   0.0570 |    31.02s |     53047
+  1608 |   0.0588 |    31.04s |     53048
+  1609 |   0.0620 |    31.06s |     53050
+  1610 |   0.0596 |    31.08s |     53050
+  1611 |   0.0444 |    31.10s |     53052
+  1612 |   0.0561 |    31.11s |     53053
+  1613 |   0.0369 |    31.13s |     53055
+  1614 |   0.0508 |    31.15s |     53056
+  1615 |   0.0604 |    31.17s |     53057
+  1616 |   0.0635 |    31.19s |     53058
+  1617 |   0.0629 |    31.21s |     53059
+  1618 |   0.0483 |    31.23s |     53061
+  1619 |   0.0514 |    31.24s |     53062
+  1620 |   0.0377 |    31.26s |     53062
+[val] step 1620 | val_loss 10.6626
+
+--- sample [step 1620] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1621 |   0.0528 |    31.28s |     53063
+  1622 |   0.0572 |    31.30s |     53064
+  1623 |   0.0590 |    31.32s |     53066
+  1624 |   0.0446 |    31.34s |     53067
+  1625 |   0.0463 |    31.36s |     53068
+  1626 |   0.0652 |    31.37s |     53070
+  1627 |   0.0576 |    31.39s |     53070
+  1628 |   0.0665 |    31.41s |     53072
+  1629 |   0.0635 |    31.43s |     53073
+  1630 |   0.0471 |    31.45s |     53075
+  1631 |   0.0532 |    31.47s |     53076
+  1632 |   0.0535 |    31.49s |     53077
+  1633 |   0.0405 |    31.50s |     53078
+  1634 |   0.0473 |    31.52s |     53079
+  1635 |   0.0550 |    31.54s |     53080
+  1636 |   0.0820 |    31.56s |     53081
+  1637 |   0.0689 |    31.58s |     53082
+  1638 |   0.0466 |    31.60s |     53083
+  1639 |   0.0505 |    31.62s |     53084
+  1640 |   0.0597 |    31.64s |     53084
+[val] step 1640 | val_loss 10.3644
+
+--- sample [step 1640] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1641 |   0.0477 |    31.65s |     53086
+  1642 |   0.0464 |    31.67s |     53086
+  1643 |   0.0585 |    31.69s |     53086
+  1644 |   0.0545 |    31.71s |     53087
+  1645 |   0.0573 |    31.73s |     53086
+  1646 |   0.0266 |    31.75s |     53087
+  1647 |   0.0535 |    31.77s |     53087
+  1648 |   0.0551 |    31.79s |     53088
+  1649 |   0.0684 |    31.81s |     53091
+  1650 |   0.0571 |    31.82s |     53093
+  1651 |   0.0493 |    31.84s |     53094
+  1652 |   0.0533 |    31.86s |     53097
+  1653 |   0.0618 |    31.88s |     53098
+  1654 |   0.0474 |    31.90s |     53100
+  1655 |   0.0536 |    31.91s |     53101
+  1656 |   0.0537 |    31.93s |     53102
+  1657 |   0.0497 |    31.95s |     53104
+  1658 |   0.0753 |    31.97s |     53104
+  1659 |   0.0448 |    31.99s |     53104
+  1660 |   0.0476 |    32.01s |     53106
+[val] step 1660 | val_loss 10.3776
+
+--- sample [step 1660] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1661 |   0.0601 |    32.03s |     53107
+  1662 |   0.0627 |    32.05s |     53107
+  1663 |   0.0551 |    32.07s |     53107
+  1664 |   0.0386 |    32.08s |     53108
+  1665 |   0.0592 |    32.10s |     53108
+  1666 |   0.0559 |    32.12s |     53108
+  1667 |   0.0572 |    32.14s |     53109
+  1668 |   0.0553 |    32.16s |     53110
+  1669 |   0.0444 |    32.18s |     53112
+  1670 |   0.0548 |    32.20s |     53111
+  1671 |   0.0404 |    32.22s |     53112
+  1672 |   0.0651 |    32.24s |     53113
+  1673 |   0.0723 |    32.25s |     53113
+  1674 |   0.0643 |    32.27s |     53113
+  1675 |   0.0643 |    32.29s |     53115
+  1676 |   0.0736 |    32.31s |     53116
+  1677 |   0.0537 |    32.33s |     53117
+  1678 |   0.0451 |    32.35s |     53119
+  1679 |   0.0711 |    32.37s |     53120
+  1680 |   0.0666 |    32.39s |     53120
+[val] step 1680 | val_loss 10.4360
+
+--- sample [step 1680] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1681 |   0.0505 |    32.40s |     53122
+  1682 |   0.0633 |    32.42s |     53122
+  1683 |   0.0600 |    32.44s |     53123
+  1684 |   0.0588 |    32.46s |     53122
+  1685 |   0.0665 |    32.48s |     53123
+  1686 |   0.0569 |    32.50s |     53125
+  1687 |   0.0507 |    32.52s |     53128
+  1688 |   0.0574 |    32.53s |     53128
+  1689 |   0.0543 |    32.55s |     53130
+  1690 |   0.0618 |    32.57s |     53131
+  1691 |   0.0581 |    32.59s |     53131
+  1692 |   0.0520 |    32.61s |     53131
+  1693 |   0.0725 |    32.63s |     53132
+  1694 |   0.0805 |    32.65s |     53132
+  1695 |   0.0525 |    32.67s |     53134
+  1696 |   0.0632 |    32.69s |     53133
+  1697 |   0.0327 |    32.71s |     53133
+  1698 |   0.0777 |    32.72s |     53133
+  1699 |   0.0495 |    32.74s |     53135
+  1700 |   0.0450 |    32.76s |     53136
+[val] step 1700 | val_loss 10.4302
+
+--- sample [step 1700] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1701 |   0.0383 |    32.78s |     53138
+  1702 |   0.0630 |    32.80s |     53138
+  1703 |   0.0518 |    32.82s |     53138
+  1704 |   0.0475 |    32.84s |     53139
+  1705 |   0.0512 |    32.86s |     53140
+  1706 |   0.0596 |    32.87s |     53140
+  1707 |   0.0655 |    32.89s |     53140
+  1708 |   0.0478 |    32.91s |     53140
+  1709 |   0.0686 |    32.93s |     53142
+  1710 |   0.0757 |    32.95s |     53142
+  1711 |   0.0548 |    32.97s |     53143
+  1712 |   0.0445 |    32.99s |     53142
+  1713 |   0.0459 |    33.01s |     53144
+  1714 |   0.0499 |    33.03s |     53145
+  1715 |   0.0385 |    33.04s |     53145
+  1716 |   0.0542 |    33.06s |     53146
+  1717 |   0.0751 |    33.08s |     53149
+  1718 |   0.0458 |    33.10s |     53150
+  1719 |   0.0419 |    33.12s |     53151
+  1720 |   0.0584 |    33.14s |     53152
+[val] step 1720 | val_loss 10.2660
+
+--- sample [step 1720] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  1721 |   0.0449 |    33.16s |     53153
+  1722 |   0.0798 |    33.17s |     53153
+  1723 |   0.0498 |    33.19s |     53153
+  1724 |   0.0412 |    33.21s |     53153
+  1725 |   0.0480 |    33.23s |     53150
+  1726 |   0.0491 |    33.25s |     53149
+  1727 |   0.0512 |    33.27s |     53147
+  1728 |   0.0548 |    33.29s |     53145
+  1729 |   0.0549 |    33.31s |     53144
+  1730 |   0.0635 |    33.34s |     53142
+  1731 |   0.0691 |    33.36s |     53141
+  1732 |   0.0485 |    33.38s |     53139
+  1733 |   0.0420 |    33.40s |     53138
+  1734 |   0.0487 |    33.42s |     53138
+  1735 |   0.0499 |    33.44s |     53134
+  1736 |   0.0643 |    33.46s |     53135
+  1737 |   0.0741 |    33.48s |     53134
+  1738 |   0.0564 |    33.50s |     53132
+  1739 |   0.0361 |    33.52s |     53130
+  1740 |   0.0649 |    33.54s |     53130
+[val] step 1740 | val_loss 10.3430
+
+--- sample [step 1740] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1741 |   0.0604 |    33.56s |     53129
+  1742 |   0.0593 |    33.57s |     53129
+  1743 |   0.0450 |    33.59s |     53130
+  1744 |   0.0454 |    33.61s |     53130
+  1745 |   0.0459 |    33.63s |     53130
+  1746 |   0.0620 |    33.65s |     53131
+  1747 |   0.0557 |    33.67s |     53129
+  1748 |   0.0367 |    33.69s |     53127
+  1749 |   0.0576 |    33.71s |     53126
+  1750 |   0.0632 |    33.73s |     53126
+  1751 |   0.0583 |    33.75s |     53122
+  1752 |   0.0681 |    33.77s |     53123
+  1753 |   0.0574 |    33.79s |     53122
+  1754 |   0.0418 |    33.81s |     53123
+  1755 |   0.0653 |    33.83s |     53122
+  1756 |   0.0556 |    33.85s |     53120
+  1757 |   0.0559 |    33.87s |     53119
+  1758 |   0.0780 |    33.89s |     53119
+  1759 |   0.0626 |    33.91s |     53118
+  1760 |   0.0557 |    33.93s |     53117
+[val] step 1760 | val_loss 10.2121
+
+--- sample [step 1760] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1761 |   0.0669 |    33.95s |     53115
+  1762 |   0.0587 |    33.97s |     53114
+  1763 |   0.0524 |    33.99s |     53114
+  1764 |   0.0580 |    34.01s |     53116
+  1765 |   0.0681 |    34.03s |     53118
+  1766 |   0.0377 |    34.05s |     53117
+  1767 |   0.0424 |    34.06s |     53118
+  1768 |   0.0658 |    34.08s |     53120
+  1769 |   0.0445 |    34.10s |     53122
+  1770 |   0.0700 |    34.12s |     53123
+  1771 |   0.0762 |    34.14s |     53123
+  1772 |   0.0436 |    34.16s |     53120
+  1773 |   0.0698 |    34.18s |     53119
+  1774 |   0.0396 |    34.20s |     53118
+  1775 |   0.0593 |    34.22s |     53116
+  1776 |   0.0427 |    34.24s |     53114
+  1777 |   0.0455 |    34.26s |     53113
+  1778 |   0.0600 |    34.28s |     53112
+  1779 |   0.0561 |    34.30s |     53110
+  1780 |   0.0525 |    34.32s |     53109
+[val] step 1780 | val_loss 10.2827
+
+--- sample [step 1780] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  1781 |   0.0569 |    34.34s |     53108
+  1782 |   0.0525 |    34.36s |     53102
+  1783 |   0.0340 |    34.39s |     53097
+  1784 |   0.0374 |    34.41s |     53095
+  1785 |   0.0740 |    34.43s |     53095
+  1786 |   0.0580 |    34.45s |     53094
+  1787 |   0.0595 |    34.47s |     53094
+  1788 |   0.0452 |    34.49s |     53092
+  1789 |   0.0401 |    34.51s |     53091
+  1790 |   0.0650 |    34.52s |     53091
+  1791 |   0.0588 |    34.54s |     53092
+  1792 |   0.0480 |    34.56s |     53092
+  1793 |   0.0596 |    34.58s |     53092
+  1794 |   0.0670 |    34.60s |     53090
+  1795 |   0.0591 |    34.62s |     53091
+  1796 |   0.0509 |    34.64s |     53090
+  1797 |   0.0593 |    34.66s |     53088
+  1798 |   0.0380 |    34.68s |     53086
+  1799 |   0.0611 |    34.70s |     53084
+  1800 |   0.0592 |    34.72s |     53084
+[val] step 1800 | val_loss 10.2067
+
+--- sample [step 1800] seed=1337 temp=0.8 top_k=40 ---
+The new product chocolate spread is being launched on 1 February and will be appear in the chilled dairy aisle next to plain Philadelphia Light. It is launching in a 160g tub and a 120g four-pack
+---
+
+  1801 |   0.0558 |    34.74s |     53083
+  1802 |   0.0461 |    34.76s |     53082
+  1803 |   0.0543 |    34.78s |     53080
+  1804 |   0.0663 |    34.80s |     53078
+  1805 |   0.0489 |    34.82s |     53078
+  1806 |   0.0453 |    34.84s |     53077
+  1807 |   0.0412 |    34.86s |     53076
+  1808 |   0.0726 |    34.88s |     53078
+  1809 |   0.0571 |    34.90s |     53078
+  1810 |   0.0424 |    34.92s |     53078
+  1811 |   0.0379 |    34.94s |     53077
+  1812 |   0.0402 |    34.96s |     53076
+  1813 |   0.0581 |    34.98s |     53075
+  1814 |   0.0513 |    35.00s |     53074
+  1815 |   0.0612 |    35.02s |     53073
+  1816 |   0.0433 |    35.04s |     53072
+  1817 |   0.0594 |    35.06s |     53071
+  1818 |   0.0475 |    35.08s |     53071
+  1819 |   0.0750 |    35.10s |     53068
+  1820 |   0.0476 |    35.12s |     53068
+[val] step 1820 | val_loss 10.3876
+
+--- sample [step 1820] seed=1337 temp=0.8 top_k=40 ---
+The new product would have good for a 2010 Season - Bowman pulls down CCIW honor |Matt Bowman was named CCIW "Runner of the Week" after his fourth place finish at the Briss
+---
+
+  1821 |   0.0596 |    35.14s |     53067
+  1822 |   0.0327 |    35.16s |     53067
+  1823 |   0.0276 |    35.18s |     53067
+  1824 |   0.0762 |    35.20s |     53065
+  1825 |   0.0527 |    35.22s |     53063
+  1826 |   0.0526 |    35.24s |     53063
+  1827 |   0.0441 |    35.26s |     53062
+  1828 |   0.0591 |    35.28s |     53061
+  1829 |   0.0448 |    35.30s |     53058
+  1830 |   0.0498 |    35.32s |     53058
+  1831 |   0.0475 |    35.34s |     53057
+  1832 |   0.0622 |    35.36s |     53057
+  1833 |   0.0238 |    35.38s |     53055
+  1834 |   0.0544 |    35.40s |     53054
+  1835 |   0.0346 |    35.42s |     53052
+  1836 |   0.0305 |    35.44s |     53052
+  1837 |   0.0524 |    35.46s |     53051
+  1838 |   0.0726 |    35.48s |     53050
+  1839 |   0.0560 |    35.50s |     53048
+  1840 |   0.0610 |    35.52s |     53047
+[val] step 1840 | val_loss 10.8720
+
+--- sample [step 1840] seed=1337 temp=0.8 top_k=40 ---
+The new product has a 11 recalls were submitted to the RRE. A total of 65 recalls have been issued through the exchange industrywide since its September 2009 launch. For recalls that went through the
+---
+
+  1841 |   0.0867 |    35.54s |     53046
+  1842 |   0.0516 |    35.56s |     53047
+  1843 |   0.0486 |    35.58s |     53045
+  1844 |   0.0411 |    35.60s |     53043
+  1845 |   0.0410 |    35.62s |     53042
+  1846 |   0.0630 |    35.64s |     53040
+  1847 |   0.0486 |    35.66s |     53040
+  1848 |   0.0398 |    35.68s |     53038
+  1849 |   0.0798 |    35.70s |     53036
+  1850 |   0.0578 |    35.72s |     53035
+  1851 |   0.0355 |    35.74s |     53034
+  1852 |   0.0414 |    35.76s |     53033
+  1853 |   0.0427 |    35.78s |     53031
+  1854 |   0.0619 |    35.80s |     53032
+  1855 |   0.0876 |    35.82s |     53031
+  1856 |   0.0566 |    35.84s |     53031
+  1857 |   0.0595 |    35.86s |     53030
+  1858 |   0.0568 |    35.88s |     53029
+  1859 |   0.0607 |    35.90s |     53026
+  1860 |   0.0436 |    35.92s |     53025
+[val] step 1860 | val_loss 10.8397
+
+--- sample [step 1860] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1861 |   0.0763 |    35.94s |     53025
+  1862 |   0.0353 |    35.96s |     53024
+  1863 |   0.0471 |    35.98s |     53023
+  1864 |   0.0790 |    36.00s |     53022
+  1865 |   0.0583 |    36.02s |     53023
+  1866 |   0.0482 |    36.04s |     53022
+  1867 |   0.0817 |    36.06s |     53021
+  1868 |   0.0484 |    36.08s |     53020
+  1869 |   0.0473 |    36.10s |     53018
+  1870 |   0.0422 |    36.12s |     53015
+  1871 |   0.0422 |    36.14s |     53009
+  1872 |   0.0408 |    36.16s |     53010
+  1873 |   0.0434 |    36.18s |     53008
+  1874 |   0.0737 |    36.20s |     53008
+  1875 |   0.0590 |    36.22s |     53006
+  1876 |   0.0487 |    36.24s |     53006
+  1877 |   0.0306 |    36.26s |     53008
+  1878 |   0.0307 |    36.28s |     53007
+  1879 |   0.0619 |    36.30s |     53009
+  1880 |   0.0658 |    36.32s |     53010
+[val] step 1880 | val_loss 10.7035
+
+--- sample [step 1880] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1881 |   0.0541 |    36.33s |     53012
+  1882 |   0.0502 |    36.35s |     53014
+  1883 |   0.0511 |    36.37s |     53014
+  1884 |   0.0487 |    36.39s |     53014
+  1885 |   0.0494 |    36.41s |     53015
+  1886 |   0.0487 |    36.43s |     53016
+  1887 |   0.0454 |    36.45s |     53017
+  1888 |   0.0540 |    36.47s |     53017
+  1889 |   0.0686 |    36.48s |     53017
+  1890 |   0.0472 |    36.50s |     53017
+  1891 |   0.0434 |    36.52s |     53019
+  1892 |   0.0606 |    36.54s |     53019
+  1893 |   0.0635 |    36.56s |     53020
+  1894 |   0.0404 |    36.58s |     53019
+  1895 |   0.0511 |    36.60s |     53021
+  1896 |   0.0609 |    36.62s |     53021
+  1897 |   0.0551 |    36.64s |     53023
+  1898 |   0.0591 |    36.65s |     53023
+  1899 |   0.0523 |    36.67s |     53023
+  1900 |   0.0457 |    36.69s |     53023
+[val] step 1900 | val_loss 10.6521
+
+--- sample [step 1900] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1901 |   0.0646 |    36.71s |     53023
+  1902 |   0.0425 |    36.73s |     53023
+  1903 |   0.0568 |    36.75s |     53024
+  1904 |   0.0448 |    36.77s |     53024
+  1905 |   0.0699 |    36.79s |     53024
+  1906 |   0.0512 |    36.81s |     53023
+  1907 |   0.0511 |    36.83s |     53024
+  1908 |   0.0395 |    36.85s |     53023
+  1909 |   0.0423 |    36.87s |     53023
+  1910 |   0.0577 |    36.89s |     53023
+  1911 |   0.0565 |    36.91s |     53022
+  1912 |   0.0660 |    36.93s |     53023
+  1913 |   0.0501 |    36.94s |     53023
+  1914 |   0.0544 |    36.96s |     53024
+  1915 |   0.0445 |    36.98s |     53022
+  1916 |   0.0704 |    37.00s |     53020
+  1917 |   0.0448 |    37.02s |     53019
+  1918 |   0.0631 |    37.04s |     53019
+  1919 |   0.0454 |    37.06s |     53019
+  1920 |   0.0476 |    37.08s |     53019
+[val] step 1920 | val_loss 10.8992
+
+--- sample [step 1920] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1921 |   0.0496 |    37.10s |     53020
+  1922 |   0.0524 |    37.12s |     53020
+  1923 |   0.0511 |    37.14s |     53020
+  1924 |   0.0551 |    37.16s |     53020
+  1925 |   0.0574 |    37.18s |     53022
+  1926 |   0.0532 |    37.20s |     53021
+  1927 |   0.0450 |    37.22s |     53020
+  1928 |   0.0574 |    37.24s |     53019
+  1929 |   0.0682 |    37.26s |     53020
+  1930 |   0.0416 |    37.28s |     53019
+  1931 |   0.0486 |    37.29s |     53020
+  1932 |   0.0526 |    37.32s |     53017
+  1933 |   0.0530 |    37.34s |     53015
+  1934 |   0.0721 |    37.36s |     53013
+  1935 |   0.0660 |    37.38s |     53011
+  1936 |   0.0824 |    37.40s |     53010
+  1937 |   0.0554 |    37.42s |     53010
+  1938 |   0.0410 |    37.44s |     53008
+  1939 |   0.0699 |    37.46s |     53006
+  1940 |   0.0801 |    37.48s |     53005
+[val] step 1940 | val_loss 10.9170
+
+--- sample [step 1940] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  1941 |   0.0586 |    37.50s |     53004
+  1942 |   0.0455 |    37.52s |     53004
+  1943 |   0.0741 |    37.54s |     53003
+  1944 |   0.0519 |    37.56s |     53003
+  1945 |   0.0753 |    37.58s |     53002
+  1946 |   0.0841 |    37.60s |     53000
+  1947 |   0.0466 |    37.62s |     52998
+  1948 |   0.0611 |    37.64s |     52997
+  1949 |   0.0697 |    37.66s |     52996
+  1950 |   0.0572 |    37.68s |     52996
+  1951 |   0.0703 |    37.70s |     52995
+  1952 |   0.0516 |    37.72s |     52994
+  1953 |   0.0628 |    37.74s |     52993
+  1954 |   0.0749 |    37.76s |     52992
+  1955 |   0.0662 |    37.78s |     52991
+  1956 |   0.0606 |    37.80s |     52993
+  1957 |   0.0670 |    37.82s |     52992
+  1958 |   0.0447 |    37.83s |     52993
+  1959 |   0.0690 |    37.86s |     52992
+  1960 |   0.0860 |    37.87s |     52992
+[val] step 1960 | val_loss 10.6424
+
+--- sample [step 1960] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  1961 |   0.0639 |    37.90s |     52989
+  1962 |   0.0542 |    37.92s |     52981
+  1963 |   0.0811 |    37.94s |     52978
+  1964 |   0.0776 |    37.96s |     52978
+  1965 |   0.0728 |    37.98s |     52977
+  1966 |   0.0490 |    38.00s |     52977
+  1967 |   0.0647 |    38.02s |     52977
+  1968 |   0.0574 |    38.04s |     52976
+  1969 |   0.0535 |    38.06s |     52976
+  1970 |   0.0666 |    38.08s |     52976
+  1971 |   0.0608 |    38.10s |     52975
+  1972 |   0.0708 |    38.12s |     52974
+  1973 |   0.0637 |    38.14s |     52974
+  1974 |   0.0595 |    38.16s |     52974
+  1975 |   0.0590 |    38.18s |     52975
+  1976 |   0.0576 |    38.20s |     52974
+  1977 |   0.0544 |    38.22s |     52974
+  1978 |   0.0562 |    38.24s |     52974
+  1979 |   0.0439 |    38.26s |     52963
+  1980 |   0.0567 |    38.37s |     52847
+[val] step 1980 | val_loss 10.2165
+
+--- sample [step 1980] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  1981 |   0.0657 |    38.39s |     52846
+  1982 |   0.0610 |    38.41s |     52843
+  1983 |   0.0851 |    38.43s |     52840
+  1984 |   0.0673 |    38.45s |     52839
+  1985 |   0.0467 |    38.47s |     52838
+  1986 |   0.0641 |    38.49s |     52837
+  1987 |   0.0698 |    38.51s |     52836
+  1988 |   0.0375 |    38.53s |     52834
+  1989 |   0.0489 |    38.55s |     52832
+  1990 |   0.0579 |    38.57s |     52830
+  1991 |   0.0440 |    38.59s |     52829
+  1992 |   0.0577 |    38.61s |     52824
+  1993 |   0.0533 |    38.64s |     52823
+  1994 |   0.0575 |    38.66s |     52821
+  1995 |   0.0597 |    38.68s |     52816
+  1996 |   0.0415 |    38.70s |     52813
+  1997 |   0.0468 |    38.72s |     52811
+  1998 |   0.0457 |    38.74s |     52812
+  1999 |   0.0632 |    38.76s |     52813
+  2000 |   0.0621 |    38.78s |     52810
+[val] step 2000 | val_loss 10.1428
+
+--- sample [step 2000] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2001 |   0.0464 |    38.80s |     52809
+  2002 |   0.0746 |    38.82s |     52806
+  2003 |   0.0487 |    38.84s |     52804
+  2004 |   0.0454 |    38.87s |     52794
+  2005 |   0.0348 |    38.90s |     52784
+  2006 |   0.0598 |    38.92s |     52777
+  2007 |   0.0527 |    38.95s |     52770
+  2008 |   0.0618 |    38.97s |     52764
+  2009 |   0.0416 |    38.99s |     52762
+  2010 |   0.0357 |    39.01s |     52757
+  2011 |   0.0784 |    39.04s |     52754
+  2012 |   0.0872 |    39.06s |     52751
+  2013 |   0.0565 |    39.08s |     52750
+  2014 |   0.0620 |    39.10s |     52746
+  2015 |   0.0588 |    39.12s |     52746
+  2016 |   0.0615 |    39.14s |     52746
+  2017 |   0.0594 |    39.16s |     52745
+  2018 |   0.0471 |    39.18s |     52744
+  2019 |   0.0595 |    39.20s |     52745
+  2020 |   0.0813 |    39.22s |     52745
+[val] step 2020 | val_loss 10.4051
+
+--- sample [step 2020] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  2021 |   0.0508 |    39.24s |     52744
+  2022 |   0.0474 |    39.26s |     52742
+  2023 |   0.0536 |    39.28s |     52744
+  2024 |   0.0407 |    39.29s |     52744
+  2025 |   0.0560 |    39.32s |     52732
+  2026 |   0.0662 |    39.35s |     52718
+  2027 |   0.0492 |    39.38s |     52705
+  2028 |   0.0462 |    39.40s |     52701
+  2029 |   0.0640 |    39.43s |     52694
+  2030 |   0.0531 |    39.45s |     52692
+  2031 |   0.0461 |    39.47s |     52689
+  2032 |   0.0593 |    39.49s |     52688
+  2033 |   0.0638 |    39.51s |     52686
+  2034 |   0.0676 |    39.53s |     52684
+  2035 |   0.0437 |    39.55s |     52683
+  2036 |   0.0687 |    39.57s |     52682
+  2037 |   0.0509 |    39.59s |     52683
+  2038 |   0.0379 |    39.61s |     52682
+  2039 |   0.0797 |    39.63s |     52682
+  2040 |   0.0648 |    39.65s |     52683
+[val] step 2040 | val_loss 10.5671
+
+--- sample [step 2040] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2041 |   0.0490 |    39.67s |     52684
+  2042 |   0.0401 |    39.69s |     52684
+  2043 |   0.0648 |    39.71s |     52680
+  2044 |   0.0458 |    39.73s |     52678
+  2045 |   0.0635 |    39.75s |     52679
+  2046 |   0.0595 |    39.77s |     52679
+  2047 |   0.0361 |    39.79s |     52678
+  2048 |   0.0751 |    39.81s |     52678
+  2049 |   0.0521 |    39.83s |     52675
+  2050 |   0.0650 |    39.85s |     52674
+  2051 |   0.0506 |    39.87s |     52674
+  2052 |   0.0781 |    39.89s |     52674
+  2053 |   0.0780 |    39.91s |     52674
+  2054 |   0.0483 |    39.93s |     52675
+  2055 |   0.0609 |    39.95s |     52675
+  2056 |   0.0623 |    39.97s |     52675
+  2057 |   0.0398 |    39.99s |     52674
+  2058 |   0.0558 |    40.01s |     52674
+  2059 |   0.0607 |    40.03s |     52674
+  2060 |   0.0731 |    40.05s |     52676
+[val] step 2060 | val_loss 10.3808
+
+--- sample [step 2060] seed=1337 temp=0.8 top_k=40 ---
+The new product recall and photos. “If we get this information from our trading partners using RRE, then we eliminate most of the [internal] steps because everything works together through this tool,” he said. By
+---
+
+  2061 |   0.0521 |    40.06s |     52676
+  2062 |   0.0599 |    40.08s |     52676
+  2063 |   0.0706 |    40.10s |     52675
+  2064 |   0.0451 |    40.12s |     52675
+  2065 |   0.0786 |    40.14s |     52676
+  2066 |   0.0672 |    40.16s |     52676
+  2067 |   0.0488 |    40.18s |     52677
+  2068 |   0.0496 |    40.20s |     52678
+  2069 |   0.0398 |    40.22s |     52678
+  2070 |   0.0686 |    40.24s |     52678
+  2071 |   0.0526 |    40.26s |     52678
+  2072 |   0.0472 |    40.28s |     52679
+  2073 |   0.0495 |    40.30s |     52679
+  2074 |   0.0525 |    40.31s |     52680
+  2075 |   0.0566 |    40.33s |     52680
+  2076 |   0.0362 |    40.35s |     52679
+  2077 |   0.0484 |    40.37s |     52680
+  2078 |   0.0336 |    40.39s |     52679
+  2079 |   0.0302 |    40.41s |     52679
+  2080 |   0.0401 |    40.43s |     52681
+[val] step 2080 | val_loss 10.4075
+
+--- sample [step 2080] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2081 |   0.0581 |    40.45s |     52680
+  2082 |   0.0588 |    40.47s |     52680
+  2083 |   0.0515 |    40.49s |     52681
+  2084 |   0.0572 |    40.51s |     52680
+  2085 |   0.0404 |    40.53s |     52680
+  2086 |   0.0414 |    40.55s |     52679
+  2087 |   0.0663 |    40.57s |     52680
+  2088 |   0.0763 |    40.59s |     52680
+  2089 |   0.0843 |    40.61s |     52681
+  2090 |   0.0590 |    40.62s |     52681
+  2091 |   0.0365 |    40.64s |     52683
+  2092 |   0.0517 |    40.66s |     52684
+  2093 |   0.0608 |    40.68s |     52685
+  2094 |   0.0648 |    40.70s |     52685
+  2095 |   0.0584 |    40.72s |     52685
+  2096 |   0.0423 |    40.74s |     52686
+  2097 |   0.0776 |    40.76s |     52686
+  2098 |   0.0474 |    40.78s |     52685
+  2099 |   0.0669 |    40.80s |     52686
+  2100 |   0.0540 |    40.82s |     52686
+[val] step 2100 | val_loss 10.5918
+
+--- sample [step 2100] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2101 |   0.0448 |    40.83s |     52687
+  2102 |   0.0517 |    40.85s |     52687
+  2103 |   0.0377 |    40.87s |     52687
+  2104 |   0.0598 |    40.89s |     52688
+  2105 |   0.0620 |    40.91s |     52689
+  2106 |   0.0518 |    40.93s |     52689
+  2107 |   0.0723 |    40.95s |     52690
+  2108 |   0.0641 |    40.97s |     52688
+  2109 |   0.0548 |    40.99s |     52689
+  2110 |   0.0447 |    41.01s |     52689
+  2111 |   0.0545 |    41.03s |     52688
+  2112 |   0.0391 |    41.05s |     52688
+  2113 |   0.0481 |    41.07s |     52687
+  2114 |   0.0475 |    41.09s |     52686
+  2115 |   0.0358 |    41.11s |     52686
+  2116 |   0.0682 |    41.13s |     52685
+  2117 |   0.0473 |    41.15s |     52684
+  2118 |   0.0378 |    41.17s |     52684
+  2119 |   0.0409 |    41.19s |     52682
+  2120 |   0.0466 |    41.21s |     52683
+[val] step 2120 | val_loss 10.8004
+
+--- sample [step 2120] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2121 |   0.0445 |    41.22s |     52684
+  2122 |   0.0711 |    41.24s |     52686
+  2123 |   0.0711 |    41.26s |     52685
+  2124 |   0.0542 |    41.28s |     52683
+  2125 |   0.0663 |    41.30s |     52684
+  2126 |   0.0380 |    41.32s |     52684
+  2127 |   0.0310 |    41.34s |     52685
+  2128 |   0.0238 |    41.36s |     52685
+  2129 |   0.0586 |    41.38s |     52685
+  2130 |   0.0780 |    41.40s |     52683
+  2131 |   0.0776 |    41.42s |     52683
+  2132 |   0.0457 |    41.44s |     52683
+  2133 |   0.0680 |    41.46s |     52682
+  2134 |   0.0810 |    41.48s |     52681
+  2135 |   0.0524 |    41.50s |     52679
+  2136 |   0.0260 |    41.52s |     52678
+  2137 |   0.0545 |    41.54s |     52677
+  2138 |   0.0530 |    41.56s |     52677
+  2139 |   0.0287 |    41.58s |     52677
+  2140 |   0.0647 |    41.60s |     52678
+[val] step 2140 | val_loss 10.9348
+
+--- sample [step 2140] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2141 |   0.0471 |    41.62s |     52677
+  2142 |   0.0502 |    41.64s |     52676
+  2143 |   0.0589 |    41.66s |     52674
+  2144 |   0.0714 |    41.68s |     52674
+  2145 |   0.0547 |    41.70s |     52674
+  2146 |   0.0472 |    41.72s |     52673
+  2147 |   0.0541 |    41.74s |     52674
+  2148 |   0.0596 |    41.76s |     52674
+  2149 |   0.0427 |    41.78s |     52674
+  2150 |   0.0599 |    41.80s |     52674
+  2151 |   0.0362 |    41.82s |     52672
+  2152 |   0.0830 |    41.84s |     52671
+  2153 |   0.0347 |    41.86s |     52671
+  2154 |   0.0415 |    41.88s |     52670
+  2155 |   0.0521 |    41.90s |     52669
+  2156 |   0.0518 |    41.92s |     52669
+  2157 |   0.0603 |    41.94s |     52669
+  2158 |   0.0685 |    41.96s |     52670
+  2159 |   0.0827 |    41.97s |     52670
+  2160 |   0.0654 |    41.99s |     52670
+[val] step 2160 | val_loss 10.6726
+
+--- sample [step 2160] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2161 |   0.0461 |    42.01s |     52670
+  2162 |   0.0589 |    42.03s |     52670
+  2163 |   0.0441 |    42.05s |     52672
+  2164 |   0.0592 |    42.07s |     52672
+  2165 |   0.0561 |    42.09s |     52674
+  2166 |   0.0415 |    42.11s |     52673
+  2167 |   0.0504 |    42.13s |     52674
+  2168 |   0.0577 |    42.15s |     52673
+  2169 |   0.0539 |    42.17s |     52673
+  2170 |   0.0338 |    42.19s |     52674
+  2171 |   0.0660 |    42.21s |     52673
+  2172 |   0.0549 |    42.22s |     52675
+  2173 |   0.0381 |    42.24s |     52676
+  2174 |   0.0561 |    42.26s |     52675
+  2175 |   0.0590 |    42.28s |     52676
+  2176 |   0.0773 |    42.30s |     52678
+  2177 |   0.0513 |    42.32s |     52680
+  2178 |   0.0527 |    42.34s |     52681
+  2179 |   0.0744 |    42.35s |     52681
+  2180 |   0.0432 |    42.37s |     52682
+[val] step 2180 | val_loss 10.4148
+
+--- sample [step 2180] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2181 |   0.0449 |    42.39s |     52683
+  2182 |   0.0552 |    42.41s |     52684
+  2183 |   0.0521 |    42.43s |     52683
+  2184 |   0.0572 |    42.45s |     52684
+  2185 |   0.0433 |    42.47s |     52684
+  2186 |   0.0618 |    42.49s |     52684
+  2187 |   0.0573 |    42.51s |     52686
+  2188 |   0.0454 |    42.52s |     52687
+  2189 |   0.0706 |    42.54s |     52689
+  2190 |   0.0684 |    42.56s |     52689
+  2191 |   0.0703 |    42.58s |     52689
+  2192 |   0.0555 |    42.60s |     52689
+  2193 |   0.0420 |    42.62s |     52689
+  2194 |   0.0495 |    42.64s |     52689
+  2195 |   0.0468 |    42.66s |     52689
+  2196 |   0.0338 |    42.68s |     52691
+  2197 |   0.0397 |    42.70s |     52691
+  2198 |   0.0505 |    42.72s |     52691
+  2199 |   0.0855 |    42.74s |     52691
+  2200 |   0.0613 |    42.75s |     52692
+[val] step 2200 | val_loss 10.5591
+
+--- sample [step 2200] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  2201 |   0.0518 |    42.77s |     52692
+  2202 |   0.0464 |    42.79s |     52691
+  2203 |   0.0404 |    42.81s |     52691
+  2204 |   0.0361 |    42.83s |     52691
+  2205 |   0.0535 |    42.85s |     52693
+  2206 |   0.0529 |    42.87s |     52693
+  2207 |   0.0370 |    42.89s |     52693
+  2208 |   0.0660 |    42.91s |     52694
+  2209 |   0.0523 |    42.93s |     52695
+  2210 |   0.0509 |    42.95s |     52695
+  2211 |   0.0726 |    42.97s |     52695
+  2212 |   0.0359 |    42.98s |     52696
+  2213 |   0.0498 |    43.00s |     52696
+  2214 |   0.0539 |    43.02s |     52695
+  2215 |   0.0631 |    43.04s |     52696
+  2216 |   0.0452 |    43.06s |     52697
+  2217 |   0.0452 |    43.08s |     52697
+  2218 |   0.0359 |    43.10s |     52697
+  2219 |   0.0483 |    43.12s |     52697
+  2220 |   0.0724 |    43.14s |     52697
+[val] step 2220 | val_loss 10.9647
+
+--- sample [step 2220] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2221 |   0.0437 |    43.16s |     52699
+  2222 |   0.0486 |    43.18s |     52699
+  2223 |   0.0543 |    43.19s |     52700
+  2224 |   0.0598 |    43.21s |     52701
+  2225 |   0.0492 |    43.23s |     52700
+  2226 |   0.0588 |    43.25s |     52700
+  2227 |   0.0466 |    43.27s |     52700
+  2228 |   0.0610 |    43.29s |     52701
+  2229 |   0.0559 |    43.31s |     52701
+  2230 |   0.0272 |    43.33s |     52702
+  2231 |   0.0350 |    43.35s |     52702
+  2232 |   0.0571 |    43.37s |     52701
+  2233 |   0.0418 |    43.39s |     52703
+  2234 |   0.0714 |    43.41s |     52703
+  2235 |   0.0438 |    43.42s |     52704
+  2236 |   0.0413 |    43.44s |     52705
+  2237 |   0.0670 |    43.46s |     52705
+  2238 |   0.0509 |    43.48s |     52705
+  2239 |   0.0488 |    43.50s |     52706
+  2240 |   0.0574 |    43.52s |     52707
+[val] step 2240 | val_loss 10.5809
+
+--- sample [step 2240] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2241 |   0.0438 |    43.54s |     52708
+  2242 |   0.0548 |    43.56s |     52707
+  2243 |   0.0641 |    43.58s |     52708
+  2244 |   0.0486 |    43.59s |     52709
+  2245 |   0.0246 |    43.61s |     52710
+  2246 |   0.0722 |    43.63s |     52710
+  2247 |   0.0625 |    43.65s |     52710
+  2248 |   0.0552 |    43.67s |     52710
+  2249 |   0.0586 |    43.69s |     52710
+  2250 |   0.0662 |    43.71s |     52711
+  2251 |   0.0687 |    43.73s |     52713
+  2252 |   0.0500 |    43.75s |     52714
+  2253 |   0.0492 |    43.77s |     52714
+  2254 |   0.0653 |    43.78s |     52715
+  2255 |   0.0449 |    43.80s |     52716
+  2256 |   0.0303 |    43.82s |     52717
+  2257 |   0.0418 |    43.84s |     52717
+  2258 |   0.0594 |    43.86s |     52718
+  2259 |   0.0573 |    43.88s |     52718
+  2260 |   0.0424 |    43.90s |     52717
+[val] step 2260 | val_loss 10.6354
+
+--- sample [step 2260] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2261 |   0.0324 |    43.92s |     52718
+  2262 |   0.0531 |    43.94s |     52718
+  2263 |   0.0509 |    43.96s |     52717
+  2264 |   0.0462 |    43.98s |     52718
+  2265 |   0.0726 |    44.00s |     52718
+  2266 |   0.0617 |    44.01s |     52718
+  2267 |   0.0464 |    44.03s |     52717
+  2268 |   0.0587 |    44.05s |     52718
+  2269 |   0.0581 |    44.07s |     52718
+  2270 |   0.0749 |    44.09s |     52718
+  2271 |   0.0469 |    44.11s |     52719
+  2272 |   0.0473 |    44.13s |     52720
+  2273 |   0.0472 |    44.15s |     52720
+  2274 |   0.0474 |    44.17s |     52720
+  2275 |   0.0352 |    44.19s |     52720
+  2276 |   0.0465 |    44.21s |     52721
+  2277 |   0.0657 |    44.23s |     52720
+  2278 |   0.0466 |    44.25s |     52721
+  2279 |   0.0483 |    44.26s |     52722
+  2280 |   0.0607 |    44.28s |     52723
+[val] step 2280 | val_loss 10.5402
+
+--- sample [step 2280] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  2281 |   0.0423 |    44.30s |     52723
+  2282 |   0.0427 |    44.32s |     52722
+  2283 |   0.0479 |    44.34s |     52723
+  2284 |   0.0601 |    44.36s |     52724
+  2285 |   0.0358 |    44.38s |     52724
+  2286 |   0.0532 |    44.40s |     52725
+  2287 |   0.0556 |    44.42s |     52726
+  2288 |   0.0658 |    44.44s |     52727
+  2289 |   0.0554 |    44.46s |     52725
+  2290 |   0.0715 |    44.47s |     52726
+  2291 |   0.0640 |    44.49s |     52727
+  2292 |   0.0677 |    44.51s |     52728
+  2293 |   0.0560 |    44.53s |     52729
+  2294 |   0.0311 |    44.55s |     52730
+  2295 |   0.0455 |    44.57s |     52730
+  2296 |   0.0549 |    44.59s |     52731
+  2297 |   0.0426 |    44.61s |     52731
+  2298 |   0.0462 |    44.62s |     52733
+  2299 |   0.0400 |    44.64s |     52733
+  2300 |   0.0566 |    44.66s |     52732
+[val] step 2300 | val_loss 10.9040
+
+--- sample [step 2300] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  2301 |   0.0444 |    44.68s |     52733
+  2302 |   0.0547 |    44.70s |     52733
+  2303 |   0.0486 |    44.72s |     52733
+  2304 |   0.0580 |    44.74s |     52735
+  2305 |   0.0586 |    44.76s |     52736
+  2306 |   0.0523 |    44.78s |     52737
+  2307 |   0.0537 |    44.79s |     52738
+  2308 |   0.0548 |    44.81s |     52740
+  2309 |   0.0509 |    44.83s |     52740
+  2310 |   0.0429 |    44.85s |     52741
+  2311 |   0.0454 |    44.87s |     52741
+  2312 |   0.0428 |    44.89s |     52743
+  2313 |   0.0480 |    44.91s |     52743
+  2314 |   0.0444 |    44.92s |     52745
+  2315 |   0.0475 |    44.94s |     52745
+  2316 |   0.0553 |    44.96s |     52746
+  2317 |   0.0533 |    44.98s |     52745
+  2318 |   0.0606 |    45.00s |     52745
+  2319 |   0.0530 |    45.02s |     52745
+  2320 |   0.0359 |    45.04s |     52745
+[val] step 2320 | val_loss 10.6978
+
+--- sample [step 2320] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  2321 |   0.0281 |    45.06s |     52746
+  2322 |   0.0430 |    45.08s |     52745
+  2323 |   0.0691 |    45.10s |     52745
+  2324 |   0.0422 |    45.12s |     52746
+  2325 |   0.0439 |    45.14s |     52747
+  2326 |   0.0457 |    45.16s |     52747
+  2327 |   0.0365 |    45.17s |     52748
+  2328 |   0.0551 |    45.19s |     52749
+  2329 |   0.0594 |    45.21s |     52748
+  2330 |   0.0569 |    45.23s |     52748
+  2331 |   0.0485 |    45.25s |     52749
+  2332 |   0.0488 |    45.27s |     52750
+  2333 |   0.0438 |    45.29s |     52750
+  2334 |   0.0571 |    45.31s |     52752
+  2335 |   0.0398 |    45.33s |     52753
+  2336 |   0.0398 |    45.34s |     52753
+  2337 |   0.0554 |    45.36s |     52753
+  2338 |   0.0469 |    45.38s |     52753
+  2339 |   0.0502 |    45.40s |     52754
+  2340 |   0.0608 |    45.42s |     52755
+[val] step 2340 | val_loss 10.8581
+
+--- sample [step 2340] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  2341 |   0.0448 |    45.44s |     52754
+  2342 |   0.0653 |    45.46s |     52756
+  2343 |   0.0445 |    45.48s |     52756
+  2344 |   0.0399 |    45.50s |     52756
+  2345 |   0.0352 |    45.52s |     52756
+  2346 |   0.0550 |    45.54s |     52756
+  2347 |   0.0668 |    45.56s |     52756
+  2348 |   0.0669 |    45.57s |     52758
+  2349 |   0.0536 |    45.59s |     52758
+  2350 |   0.0593 |    45.61s |     52759
+  2351 |   0.0476 |    45.63s |     52759
+  2352 |   0.0706 |    45.65s |     52759
+  2353 |   0.0542 |    45.67s |     52760
+  2354 |   0.0467 |    45.69s |     52761
+  2355 |   0.0596 |    45.71s |     52761
+  2356 |   0.0556 |    45.72s |     52762
+  2357 |   0.0459 |    45.74s |     52762
+  2358 |   0.0421 |    45.76s |     52764
+  2359 |   0.0472 |    45.78s |     52764
+  2360 |   0.0564 |    45.80s |     52765
+[val] step 2360 | val_loss 11.1791
+
+--- sample [step 2360] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  2361 |   0.0714 |    45.82s |     52766
+  2362 |   0.0424 |    45.84s |     52766
+  2363 |   0.0379 |    45.86s |     52766
+  2364 |   0.0471 |    45.88s |     52767
+  2365 |   0.0545 |    45.89s |     52768
+  2366 |   0.0562 |    45.91s |     52768
+  2367 |   0.0415 |    45.93s |     52768
+  2368 |   0.0454 |    45.95s |     52768
+  2369 |   0.0376 |    45.97s |     52767
+  2370 |   0.0571 |    46.00s |     52762
+  2371 |   0.0363 |    46.02s |     52761
+  2372 |   0.0465 |    46.04s |     52761
+  2373 |   0.0620 |    46.06s |     52760
+  2374 |   0.0477 |    46.08s |     52759
+  2375 |   0.0499 |    46.10s |     52759
+  2376 |   0.0526 |    46.11s |     52761
+  2377 |   0.0593 |    46.13s |     52761
+  2378 |   0.0591 |    46.15s |     52762
+  2379 |   0.0448 |    46.17s |     52763
+  2380 |   0.0393 |    46.19s |     52764
+[val] step 2380 | val_loss 11.1274
+
+--- sample [step 2380] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2381 |   0.0468 |    46.21s |     52765
+  2382 |   0.0470 |    46.23s |     52766
+  2383 |   0.0513 |    46.25s |     52766
+  2384 |   0.0508 |    46.26s |     52767
+  2385 |   0.0348 |    46.28s |     52769
+  2386 |   0.0437 |    46.30s |     52770
+  2387 |   0.0622 |    46.32s |     52771
+  2388 |   0.0525 |    46.34s |     52769
+  2389 |   0.0462 |    46.36s |     52769
+  2390 |   0.0543 |    46.38s |     52768
+  2391 |   0.0635 |    46.40s |     52766
+  2392 |   0.0538 |    46.42s |     52767
+  2393 |   0.0402 |    46.44s |     52768
+  2394 |   0.0371 |    46.46s |     52768
+  2395 |   0.0444 |    46.48s |     52769
+  2396 |   0.0353 |    46.49s |     52770
+  2397 |   0.0547 |    46.51s |     52769
+  2398 |   0.0564 |    46.53s |     52770
+  2399 |   0.0433 |    46.55s |     52770
+  2400 |   0.0511 |    46.57s |     52769
+[val] step 2400 | val_loss 11.4396
+
+--- sample [step 2400] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2401 |   0.0452 |    46.59s |     52769
+  2402 |   0.0546 |    46.61s |     52770
+  2403 |   0.0610 |    46.63s |     52770
+  2404 |   0.0611 |    46.65s |     52770
+  2405 |   0.0676 |    46.67s |     52769
+  2406 |   0.0486 |    46.69s |     52770
+  2407 |   0.0619 |    46.71s |     52770
+  2408 |   0.0540 |    46.73s |     52769
+  2409 |   0.0397 |    46.75s |     52769
+  2410 |   0.0440 |    46.77s |     52768
+  2411 |   0.0349 |    46.79s |     52767
+  2412 |   0.0426 |    46.81s |     52767
+  2413 |   0.0433 |    46.83s |     52767
+  2414 |   0.0422 |    46.85s |     52767
+  2415 |   0.0484 |    46.87s |     52767
+  2416 |   0.0330 |    46.89s |     52767
+  2417 |   0.0602 |    46.90s |     52767
+  2418 |   0.0911 |    46.93s |     52766
+  2419 |   0.0548 |    46.94s |     52765
+  2420 |   0.0700 |    46.96s |     52765
+[val] step 2420 | val_loss 11.3618
+
+--- sample [step 2420] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2421 |   0.0677 |    46.98s |     52765
+  2422 |   0.0423 |    47.00s |     52766
+  2423 |   0.0415 |    47.02s |     52765
+  2424 |   0.0547 |    47.04s |     52765
+  2425 |   0.0474 |    47.06s |     52765
+  2426 |   0.0491 |    47.08s |     52766
+  2427 |   0.0773 |    47.10s |     52767
+  2428 |   0.0383 |    47.12s |     52767
+  2429 |   0.0431 |    47.14s |     52767
+  2430 |   0.0690 |    47.16s |     52768
+  2431 |   0.0601 |    47.17s |     52768
+  2432 |   0.0605 |    47.19s |     52768
+  2433 |   0.0372 |    47.21s |     52769
+  2434 |   0.0328 |    47.23s |     52770
+  2435 |   0.0641 |    47.25s |     52770
+  2436 |   0.0613 |    47.27s |     52770
+  2437 |   0.0402 |    47.29s |     52771
+  2438 |   0.0470 |    47.31s |     52771
+  2439 |   0.0477 |    47.33s |     52771
+  2440 |   0.0444 |    47.35s |     52771
+[val] step 2440 | val_loss 11.1828
+
+--- sample [step 2440] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2441 |   0.0631 |    47.37s |     52771
+  2442 |   0.0676 |    47.39s |     52771
+  2443 |   0.0387 |    47.41s |     52771
+  2444 |   0.0634 |    47.42s |     52771
+  2445 |   0.0620 |    47.44s |     52771
+  2446 |   0.0579 |    47.46s |     52771
+  2447 |   0.0519 |    47.48s |     52771
+  2448 |   0.0548 |    47.50s |     52770
+  2449 |   0.0477 |    47.52s |     52769
+  2450 |   0.0475 |    47.54s |     52770
+  2451 |   0.0540 |    47.56s |     52770
+  2452 |   0.0501 |    47.58s |     52771
+  2453 |   0.0512 |    47.60s |     52771
+  2454 |   0.0482 |    47.62s |     52772
+  2455 |   0.0727 |    47.64s |     52771
+  2456 |   0.0675 |    47.66s |     52772
+  2457 |   0.0497 |    47.68s |     52771
+  2458 |   0.0380 |    47.70s |     52771
+  2459 |   0.0453 |    47.72s |     52771
+  2460 |   0.0608 |    47.74s |     52771
+[val] step 2460 | val_loss 11.3607
+
+--- sample [step 2460] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the Fox Chase Cancer Center... 2009 Oncology Conference Coverage View up-to-date coverage of the 2009 Oncology Conference here. Free the Cans! Working Together to Reduce Waste In a
+---
+
+  2461 |   0.0624 |    47.75s |     52772
+  2462 |   0.0584 |    47.77s |     52773
+  2463 |   0.0640 |    47.79s |     52775
+  2464 |   0.0545 |    47.81s |     52775
+  2465 |   0.0493 |    47.83s |     52775
+  2466 |   0.0406 |    47.85s |     52776
+  2467 |   0.0539 |    47.87s |     52777
+  2468 |   0.0358 |    47.88s |     52777
+  2469 |   0.0371 |    47.90s |     52778
+  2470 |   0.0325 |    47.92s |     52778
+  2471 |   0.0629 |    47.94s |     52779
+  2472 |   0.0441 |    47.96s |     52779
+  2473 |   0.0564 |    47.98s |     52779
+  2474 |   0.0710 |    48.00s |     52779
+  2475 |   0.0586 |    48.02s |     52780
+  2476 |   0.0401 |    48.04s |     52779
+  2477 |   0.0678 |    48.06s |     52780
+  2478 |   0.0587 |    48.08s |     52780
+  2479 |   0.0391 |    48.10s |     52780
+  2480 |   0.0536 |    48.11s |     52781
+[val] step 2480 | val_loss 11.3519
+
+--- sample [step 2480] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2481 |   0.0547 |    48.13s |     52781
+  2482 |   0.0584 |    48.15s |     52780
+  2483 |   0.0709 |    48.17s |     52779
+  2484 |   0.0535 |    48.19s |     52780
+  2485 |   0.0537 |    48.21s |     52781
+  2486 |   0.0413 |    48.23s |     52781
+  2487 |   0.0508 |    48.25s |     52782
+  2488 |   0.0532 |    48.27s |     52782
+  2489 |   0.0462 |    48.29s |     52782
+  2490 |   0.0596 |    48.31s |     52782
+  2491 |   0.0487 |    48.33s |     52781
+  2492 |   0.0540 |    48.35s |     52782
+  2493 |   0.0454 |    48.37s |     52782
+  2494 |   0.0584 |    48.38s |     52783
+  2495 |   0.0563 |    48.40s |     52784
+  2496 |   0.0570 |    48.42s |     52783
+  2497 |   0.0593 |    48.44s |     52785
+  2498 |   0.0598 |    48.46s |     52784
+  2499 |   0.0351 |    48.48s |     52784
+  2500 |   0.0589 |    48.50s |     52784
+[val] step 2500 | val_loss 11.1464
+
+--- sample [step 2500] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2501 |   0.0457 |    48.52s |     52784
+  2502 |   0.0612 |    48.54s |     52783
+  2503 |   0.0444 |    48.56s |     52784
+  2504 |   0.0430 |    48.58s |     52784
+  2505 |   0.0572 |    48.60s |     52784
+  2506 |   0.0615 |    48.62s |     52783
+  2507 |   0.0443 |    48.64s |     52784
+  2508 |   0.0421 |    48.65s |     52784
+  2509 |   0.0541 |    48.67s |     52785
+  2510 |   0.0485 |    48.69s |     52787
+  2511 |   0.0418 |    48.71s |     52787
+  2512 |   0.0410 |    48.73s |     52788
+  2513 |   0.0587 |    48.75s |     52788
+  2514 |   0.0606 |    48.77s |     52790
+  2515 |   0.0485 |    48.78s |     52791
+  2516 |   0.0428 |    48.80s |     52792
+  2517 |   0.0639 |    48.82s |     52792
+  2518 |   0.0577 |    48.84s |     52792
+  2519 |   0.0447 |    48.86s |     52792
+  2520 |   0.0520 |    48.88s |     52792
+[val] step 2520 | val_loss 10.9985
+
+--- sample [step 2520] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2521 |   0.0468 |    48.90s |     52792
+  2522 |   0.0591 |    48.92s |     52792
+  2523 |   0.0589 |    48.94s |     52791
+  2524 |   0.0393 |    48.96s |     52792
+  2525 |   0.0527 |    48.98s |     52791
+  2526 |   0.0375 |    49.00s |     52791
+  2527 |   0.0370 |    49.02s |     52792
+  2528 |   0.0804 |    49.03s |     52792
+  2529 |   0.0528 |    49.05s |     52792
+  2530 |   0.0631 |    49.07s |     52791
+  2531 |   0.0411 |    49.09s |     52792
+  2532 |   0.0445 |    49.11s |     52793
+  2533 |   0.0464 |    49.13s |     52793
+  2534 |   0.0461 |    49.15s |     52794
+  2535 |   0.0519 |    49.17s |     52794
+  2536 |   0.0647 |    49.19s |     52794
+  2537 |   0.0505 |    49.21s |     52795
+  2538 |   0.0469 |    49.23s |     52795
+  2539 |   0.0305 |    49.24s |     52797
+  2540 |   0.0440 |    49.26s |     52797
+[val] step 2540 | val_loss 10.8919
+
+--- sample [step 2540] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2541 |   0.0502 |    49.28s |     52799
+  2542 |   0.0593 |    49.30s |     52800
+  2543 |   0.0757 |    49.32s |     52800
+  2544 |   0.0545 |    49.34s |     52801
+  2545 |   0.0598 |    49.36s |     52802
+  2546 |   0.0469 |    49.38s |     52802
+  2547 |   0.0654 |    49.39s |     52802
+  2548 |   0.0767 |    49.41s |     52802
+  2549 |   0.0495 |    49.43s |     52803
+  2550 |   0.0524 |    49.45s |     52803
+  2551 |   0.0566 |    49.47s |     52804
+  2552 |   0.0641 |    49.49s |     52803
+  2553 |   0.0512 |    49.51s |     52802
+  2554 |   0.0685 |    49.53s |     52803
+  2555 |   0.0558 |    49.55s |     52803
+  2556 |   0.0399 |    49.57s |     52803
+  2557 |   0.0283 |    49.59s |     52803
+  2558 |   0.0594 |    49.61s |     52804
+  2559 |   0.0529 |    49.63s |     52804
+  2560 |   0.0762 |    49.64s |     52805
+[val] step 2560 | val_loss 11.2253
+
+--- sample [step 2560] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2561 |   0.0474 |    49.66s |     52805
+  2562 |   0.0558 |    49.68s |     52806
+  2563 |   0.0539 |    49.70s |     52807
+  2564 |   0.0435 |    49.72s |     52807
+  2565 |   0.0541 |    49.74s |     52808
+  2566 |   0.0547 |    49.76s |     52808
+  2567 |   0.0766 |    49.78s |     52808
+  2568 |   0.0426 |    49.80s |     52809
+  2569 |   0.0435 |    49.81s |     52809
+  2570 |   0.0362 |    49.83s |     52810
+  2571 |   0.0488 |    49.85s |     52810
+  2572 |   0.0534 |    49.87s |     52809
+  2573 |   0.0372 |    49.89s |     52809
+  2574 |   0.0594 |    49.91s |     52809
+  2575 |   0.0462 |    49.93s |     52810
+  2576 |   0.0540 |    49.95s |     52809
+  2577 |   0.0565 |    49.97s |     52809
+  2578 |   0.0554 |    49.99s |     52809
+  2579 |   0.0688 |    50.01s |     52810
+  2580 |   0.0618 |    50.03s |     52810
+[val] step 2580 | val_loss 11.0417
+
+--- sample [step 2580] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2581 |   0.0416 |    50.05s |     52811
+  2582 |   0.0687 |    50.07s |     52810
+  2583 |   0.0574 |    50.09s |     52810
+  2584 |   0.0515 |    50.10s |     52810
+  2585 |   0.0554 |    50.12s |     52810
+  2586 |   0.0609 |    50.14s |     52810
+  2587 |   0.0394 |    50.16s |     52810
+  2588 |   0.0446 |    50.18s |     52810
+  2589 |   0.0352 |    50.20s |     52810
+  2590 |   0.0445 |    50.22s |     52810
+  2591 |   0.0425 |    50.24s |     52811
+  2592 |   0.0626 |    50.26s |     52811
+  2593 |   0.0319 |    50.28s |     52811
+  2594 |   0.0646 |    50.30s |     52812
+  2595 |   0.0427 |    50.32s |     52812
+  2596 |   0.0595 |    50.33s |     52813
+  2597 |   0.0623 |    50.35s |     52814
+  2598 |   0.0414 |    50.37s |     52813
+  2599 |   0.0434 |    50.39s |     52813
+  2600 |   0.0537 |    50.41s |     52813
+[val] step 2600 | val_loss 10.9593
+
+--- sample [step 2600] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  2601 |   0.0821 |    50.43s |     52813
+  2602 |   0.0653 |    50.45s |     52814
+  2603 |   0.0701 |    50.47s |     52814
+  2604 |   0.0670 |    50.49s |     52815
+  2605 |   0.0651 |    50.51s |     52814
+  2606 |   0.0618 |    50.53s |     52815
+  2607 |   0.0516 |    50.55s |     52815
+  2608 |   0.0713 |    50.56s |     52816
+  2609 |   0.0553 |    50.58s |     52816
+  2610 |   0.0566 |    50.61s |     52813
+  2611 |   0.0642 |    50.63s |     52811
+  2612 |   0.0631 |    50.65s |     52810
+  2613 |   0.0549 |    50.67s |     52810
+  2614 |   0.0443 |    50.69s |     52810
+  2615 |   0.0700 |    50.71s |     52808
+  2616 |   0.0481 |    50.73s |     52809
+  2617 |   0.0503 |    50.75s |     52808
+  2618 |   0.0555 |    50.76s |     52809
+  2619 |   0.0547 |    50.78s |     52808
+  2620 |   0.0814 |    50.80s |     52808
+[val] step 2620 | val_loss 11.0919
+
+--- sample [step 2620] seed=1337 temp=0.8 top_k=40 ---
+The new product would have chocolate spread is being launched on 1 February and will be appear in the chilled dairy aisle next to plain Philadelphia Light. It is launching in a 160g tub and a 120g
+---
+
+  2621 |   0.0497 |    50.82s |     52809
+  2622 |   0.0510 |    50.84s |     52808
+  2623 |   0.0754 |    50.86s |     52809
+  2624 |   0.0587 |    50.88s |     52809
+  2625 |   0.0659 |    50.90s |     52809
+  2626 |   0.0653 |    50.92s |     52809
+  2627 |   0.0547 |    50.94s |     52810
+  2628 |   0.0606 |    50.96s |     52810
+  2629 |   0.0569 |    50.98s |     52809
+  2630 |   0.0521 |    51.00s |     52809
+  2631 |   0.0419 |    51.02s |     52809
+  2632 |   0.0566 |    51.04s |     52809
+  2633 |   0.0485 |    51.06s |     52809
+  2634 |   0.0744 |    51.07s |     52810
+  2635 |   0.0545 |    51.09s |     52811
+  2636 |   0.0728 |    51.11s |     52811
+  2637 |   0.0641 |    51.13s |     52812
+  2638 |   0.0521 |    51.15s |     52812
+  2639 |   0.0492 |    51.17s |     52813
+  2640 |   0.0663 |    51.19s |     52814
+[val] step 2640 | val_loss 10.8802
+
+--- sample [step 2640] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2641 |   0.1135 |    51.21s |     52814
+  2642 |   0.0705 |    51.23s |     52814
+  2643 |   0.0591 |    51.24s |     52814
+  2644 |   0.0657 |    51.26s |     52814
+  2645 |   0.0570 |    51.28s |     52813
+  2646 |   0.0667 |    51.30s |     52813
+  2647 |   0.0707 |    51.32s |     52812
+  2648 |   0.0954 |    51.34s |     52813
+  2649 |   0.0728 |    51.36s |     52813
+  2650 |   0.0477 |    51.38s |     52814
+  2651 |   0.0693 |    51.40s |     52814
+  2652 |   0.0633 |    51.42s |     52814
+  2653 |   0.0734 |    51.44s |     52814
+  2654 |   0.0822 |    51.46s |     52814
+  2655 |   0.0659 |    51.48s |     52814
+  2656 |   0.0642 |    51.50s |     52815
+  2657 |   0.0540 |    51.51s |     52815
+  2658 |   0.0619 |    51.53s |     52815
+  2659 |   0.0664 |    51.55s |     52815
+  2660 |   0.0420 |    51.57s |     52815
+[val] step 2660 | val_loss 10.8606
+
+--- sample [step 2660] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2661 |   0.0795 |    51.59s |     52815
+  2662 |   0.0508 |    51.61s |     52815
+  2663 |   0.0591 |    51.63s |     52814
+  2664 |   0.0428 |    51.65s |     52815
+  2665 |   0.0654 |    51.67s |     52816
+  2666 |   0.0506 |    51.69s |     52817
+  2667 |   0.0534 |    51.71s |     52818
+  2668 |   0.0704 |    51.73s |     52818
+  2669 |   0.0522 |    51.74s |     52818
+  2670 |   0.0400 |    51.76s |     52818
+  2671 |   0.0635 |    51.78s |     52819
+  2672 |   0.0538 |    51.80s |     52819
+  2673 |   0.0757 |    51.82s |     52819
+  2674 |   0.0637 |    51.84s |     52819
+  2675 |   0.0353 |    51.86s |     52818
+  2676 |   0.0515 |    51.88s |     52819
+  2677 |   0.0370 |    51.90s |     52820
+  2678 |   0.0510 |    51.92s |     52821
+  2679 |   0.0559 |    51.94s |     52822
+  2680 |   0.0465 |    51.95s |     52823
+[val] step 2680 | val_loss 10.6097
+
+--- sample [step 2680] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+  2681 |   0.0518 |    51.97s |     52822
+  2682 |   0.0622 |    51.99s |     52824
+  2683 |   0.0743 |    52.01s |     52824
+  2684 |   0.0512 |    52.03s |     52823
+  2685 |   0.0619 |    52.05s |     52823
+  2686 |   0.0578 |    52.07s |     52823
+  2687 |   0.0714 |    52.09s |     52824
+  2688 |   0.0550 |    52.11s |     52824
+  2689 |   0.0531 |    52.13s |     52825
+  2690 |   0.0585 |    52.14s |     52825
+  2691 |   0.0478 |    52.16s |     52826
+  2692 |   0.0416 |    52.18s |     52827
+  2693 |   0.0602 |    52.20s |     52828
+  2694 |   0.0633 |    52.22s |     52829
+  2695 |   0.0635 |    52.24s |     52829
+  2696 |   0.0231 |    52.26s |     52829
+  2697 |   0.0467 |    52.28s |     52828
+  2698 |   0.0686 |    52.30s |     52828
+  2699 |   0.0689 |    52.32s |     52828
+  2700 |   0.0661 |    52.34s |     52828
+[val] step 2700 | val_loss 10.7177
+
+--- sample [step 2700] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2701 |   0.0674 |    52.36s |     52827
+  2702 |   0.0577 |    52.38s |     52827
+  2703 |   0.0590 |    52.39s |     52828
+  2704 |   0.0571 |    52.41s |     52828
+  2705 |   0.0644 |    52.43s |     52828
+  2706 |   0.0482 |    52.45s |     52829
+  2707 |   0.0574 |    52.47s |     52829
+  2708 |   0.0711 |    52.49s |     52829
+  2709 |   0.0479 |    52.51s |     52829
+  2710 |   0.0463 |    52.53s |     52830
+  2711 |   0.0842 |    52.55s |     52831
+  2712 |   0.0699 |    52.57s |     52831
+  2713 |   0.0324 |    52.58s |     52831
+  2714 |   0.0864 |    52.60s |     52832
+  2715 |   0.0461 |    52.62s |     52833
+  2716 |   0.0589 |    52.64s |     52834
+  2717 |   0.0663 |    52.66s |     52834
+  2718 |   0.0544 |    52.68s |     52834
+  2719 |   0.0286 |    52.70s |     52835
+  2720 |   0.0613 |    52.72s |     52835
+[val] step 2720 | val_loss 10.4932
+
+--- sample [step 2720] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2721 |   0.0729 |    52.74s |     52836
+  2722 |   0.0641 |    52.75s |     52836
+  2723 |   0.0574 |    52.77s |     52837
+  2724 |   0.0729 |    52.79s |     52837
+  2725 |   0.0619 |    52.81s |     52838
+  2726 |   0.0375 |    52.83s |     52838
+  2727 |   0.0529 |    52.85s |     52838
+  2728 |   0.0647 |    52.87s |     52839
+  2729 |   0.0370 |    52.89s |     52840
+  2730 |   0.0625 |    52.91s |     52840
+  2731 |   0.0590 |    52.92s |     52840
+  2732 |   0.0658 |    52.94s |     52841
+  2733 |   0.0387 |    52.96s |     52842
+  2734 |   0.0439 |    52.98s |     52841
+  2735 |   0.0496 |    53.00s |     52842
+  2736 |   0.0551 |    53.02s |     52842
+  2737 |   0.0666 |    53.04s |     52842
+  2738 |   0.0518 |    53.06s |     52842
+  2739 |   0.0535 |    53.08s |     52842
+  2740 |   0.0586 |    53.10s |     52842
+[val] step 2740 | val_loss 11.0168
+
+--- sample [step 2740] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2741 |   0.0634 |    53.12s |     52842
+  2742 |   0.0336 |    53.14s |     52843
+  2743 |   0.0484 |    53.15s |     52844
+  2744 |   0.0498 |    53.17s |     52844
+  2745 |   0.0670 |    53.19s |     52844
+  2746 |   0.0521 |    53.21s |     52845
+  2747 |   0.0457 |    53.23s |     52846
+  2748 |   0.0602 |    53.25s |     52846
+  2749 |   0.0402 |    53.27s |     52846
+  2750 |   0.0413 |    53.29s |     52846
+  2751 |   0.0614 |    53.31s |     52846
+  2752 |   0.0541 |    53.33s |     52845
+  2753 |   0.0655 |    53.35s |     52846
+  2754 |   0.0605 |    53.37s |     52845
+  2755 |   0.0545 |    53.39s |     52845
+  2756 |   0.0667 |    53.40s |     52844
+  2757 |   0.0525 |    53.42s |     52845
+  2758 |   0.0611 |    53.44s |     52845
+  2759 |   0.0283 |    53.46s |     52845
+  2760 |   0.0354 |    53.48s |     52845
+[val] step 2760 | val_loss 10.9948
+
+--- sample [step 2760] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2761 |   0.0488 |    53.50s |     52846
+  2762 |   0.0644 |    53.52s |     52847
+  2763 |   0.0375 |    53.54s |     52847
+  2764 |   0.0651 |    53.56s |     52847
+  2765 |   0.0416 |    53.58s |     52848
+  2766 |   0.0486 |    53.59s |     52848
+  2767 |   0.0410 |    53.61s |     52848
+  2768 |   0.0339 |    53.63s |     52848
+  2769 |   0.0391 |    53.65s |     52848
+  2770 |   0.0666 |    53.67s |     52849
+  2771 |   0.0463 |    53.69s |     52849
+  2772 |   0.0489 |    53.71s |     52849
+  2773 |   0.0507 |    53.73s |     52849
+  2774 |   0.0473 |    53.75s |     52850
+  2775 |   0.0480 |    53.77s |     52850
+  2776 |   0.0557 |    53.79s |     52851
+  2777 |   0.0588 |    53.81s |     52850
+  2778 |   0.0393 |    53.83s |     52850
+  2779 |   0.0467 |    53.84s |     52850
+  2780 |   0.0470 |    53.86s |     52850
+[val] step 2780 | val_loss 10.9668
+
+--- sample [step 2780] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2781 |   0.0576 |    53.88s |     52851
+  2782 |   0.0524 |    53.90s |     52852
+  2783 |   0.0528 |    53.92s |     52852
+  2784 |   0.0680 |    53.94s |     52852
+  2785 |   0.0591 |    53.96s |     52851
+  2786 |   0.0677 |    53.98s |     52852
+  2787 |   0.0834 |    54.00s |     52852
+  2788 |   0.0371 |    54.02s |     52852
+  2789 |   0.0455 |    54.04s |     52853
+  2790 |   0.0511 |    54.05s |     52853
+  2791 |   0.0523 |    54.07s |     52854
+  2792 |   0.0461 |    54.09s |     52854
+  2793 |   0.0523 |    54.11s |     52853
+  2794 |   0.0339 |    54.13s |     52853
+  2795 |   0.0543 |    54.15s |     52853
+  2796 |   0.0543 |    54.17s |     52854
+  2797 |   0.0644 |    54.19s |     52853
+  2798 |   0.0629 |    54.21s |     52854
+  2799 |   0.0702 |    54.23s |     52854
+  2800 |   0.0375 |    54.25s |     52855
+[val] step 2800 | val_loss 11.0531
+
+--- sample [step 2800] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2801 |   0.0564 |    54.27s |     52855
+  2802 |   0.0406 |    54.28s |     52856
+  2803 |   0.0574 |    54.30s |     52856
+  2804 |   0.0646 |    54.32s |     52856
+  2805 |   0.0528 |    54.34s |     52857
+  2806 |   0.0371 |    54.36s |     52856
+  2807 |   0.0365 |    54.38s |     52856
+  2808 |   0.0547 |    54.40s |     52856
+  2809 |   0.0595 |    54.42s |     52857
+  2810 |   0.0607 |    54.44s |     52859
+  2811 |   0.0336 |    54.46s |     52859
+  2812 |   0.0521 |    54.47s |     52860
+  2813 |   0.0335 |    54.49s |     52862
+  2814 |   0.0391 |    54.51s |     52861
+  2815 |   0.0695 |    54.53s |     52862
+  2816 |   0.0567 |    54.55s |     52862
+  2817 |   0.0580 |    54.57s |     52862
+  2818 |   0.0592 |    54.59s |     52862
+  2819 |   0.0383 |    54.61s |     52861
+  2820 |   0.0387 |    54.63s |     52861
+[val] step 2820 | val_loss 11.2487
+
+--- sample [step 2820] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2821 |   0.0372 |    54.65s |     52861
+  2822 |   0.0425 |    54.67s |     52861
+  2823 |   0.0589 |    54.69s |     52861
+  2824 |   0.0589 |    54.71s |     52861
+  2825 |   0.0596 |    54.72s |     52862
+  2826 |   0.0364 |    54.74s |     52862
+  2827 |   0.0374 |    54.76s |     52863
+  2828 |   0.0383 |    54.78s |     52864
+  2829 |   0.0532 |    54.80s |     52864
+  2830 |   0.0458 |    54.82s |     52865
+  2831 |   0.0445 |    54.84s |     52866
+  2832 |   0.0606 |    54.85s |     52866
+  2833 |   0.0552 |    54.87s |     52866
+  2834 |   0.0678 |    54.89s |     52866
+  2835 |   0.0419 |    54.91s |     52867
+  2836 |   0.0430 |    54.93s |     52867
+  2837 |   0.0664 |    54.95s |     52867
+  2838 |   0.0488 |    54.97s |     52868
+  2839 |   0.0431 |    54.99s |     52868
+  2840 |   0.0698 |    55.01s |     52869
+[val] step 2840 | val_loss 11.3840
+
+--- sample [step 2840] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2841 |   0.0616 |    55.03s |     52869
+  2842 |   0.0568 |    55.05s |     52870
+  2843 |   0.0523 |    55.06s |     52870
+  2844 |   0.0528 |    55.08s |     52871
+  2845 |   0.0447 |    55.10s |     52871
+  2846 |   0.0571 |    55.12s |     52871
+  2847 |   0.0514 |    55.14s |     52870
+  2848 |   0.0469 |    55.16s |     52871
+  2849 |   0.0564 |    55.18s |     52871
+  2850 |   0.0525 |    55.20s |     52871
+  2851 |   0.0476 |    55.22s |     52872
+  2852 |   0.0484 |    55.24s |     52873
+  2853 |   0.0422 |    55.25s |     52873
+  2854 |   0.0548 |    55.27s |     52874
+  2855 |   0.0379 |    55.29s |     52873
+  2856 |   0.0616 |    55.31s |     52872
+  2857 |   0.0466 |    55.33s |     52871
+  2858 |   0.0449 |    55.35s |     52871
+  2859 |   0.0366 |    55.37s |     52872
+  2860 |   0.0315 |    55.39s |     52872
+[val] step 2860 | val_loss 11.6905
+
+--- sample [step 2860] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2861 |   0.0632 |    55.41s |     52874
+  2862 |   0.0662 |    55.43s |     52873
+  2863 |   0.0408 |    55.45s |     52873
+  2864 |   0.0486 |    55.47s |     52874
+  2865 |   0.0620 |    55.49s |     52874
+  2866 |   0.0657 |    55.51s |     52874
+  2867 |   0.0419 |    55.52s |     52874
+  2868 |   0.0495 |    55.54s |     52876
+  2869 |   0.0557 |    55.56s |     52875
+  2870 |   0.0546 |    55.58s |     52874
+  2871 |   0.0503 |    55.60s |     52874
+  2872 |   0.0638 |    55.62s |     52874
+  2873 |   0.0475 |    55.64s |     52873
+  2874 |   0.0494 |    55.66s |     52873
+  2875 |   0.0596 |    55.68s |     52873
+  2876 |   0.0632 |    55.70s |     52873
+  2877 |   0.0424 |    55.72s |     52873
+  2878 |   0.0484 |    55.74s |     52874
+  2879 |   0.0494 |    55.76s |     52874
+  2880 |   0.0362 |    55.78s |     52874
+[val] step 2880 | val_loss 11.3955
+
+--- sample [step 2880] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2881 |   0.0297 |    55.80s |     52874
+  2882 |   0.0543 |    55.81s |     52875
+  2883 |   0.0529 |    55.83s |     52875
+  2884 |   0.0826 |    55.85s |     52876
+  2885 |   0.0609 |    55.87s |     52876
+  2886 |   0.0436 |    55.89s |     52876
+  2887 |   0.0616 |    55.91s |     52877
+  2888 |   0.0718 |    55.93s |     52877
+  2889 |   0.0820 |    55.95s |     52876
+  2890 |   0.0274 |    55.97s |     52877
+  2891 |   0.0482 |    55.99s |     52877
+  2892 |   0.0614 |    56.01s |     52877
+  2893 |   0.0433 |    56.02s |     52877
+  2894 |   0.0381 |    56.04s |     52877
+  2895 |   0.0582 |    56.06s |     52878
+  2896 |   0.0576 |    56.08s |     52879
+  2897 |   0.0541 |    56.10s |     52879
+  2898 |   0.0448 |    56.12s |     52880
+  2899 |   0.0618 |    56.14s |     52878
+  2900 |   0.0600 |    56.16s |     52874
+[val] step 2900 | val_loss 10.9612
+
+--- sample [step 2900] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2901 |   0.0350 |    56.18s |     52874
+  2902 |   0.0492 |    56.20s |     52874
+  2903 |   0.0542 |    56.22s |     52875
+  2904 |   0.0558 |    56.24s |     52875
+  2905 |   0.0432 |    56.26s |     52876
+  2906 |   0.0355 |    56.28s |     52876
+  2907 |   0.0599 |    56.30s |     52876
+  2908 |   0.0663 |    56.32s |     52877
+  2909 |   0.0439 |    56.34s |     52876
+  2910 |   0.0651 |    56.36s |     52872
+  2911 |   0.0645 |    56.39s |     52865
+  2912 |   0.0609 |    56.41s |     52865
+  2913 |   0.0428 |    56.43s |     52865
+  2914 |   0.0363 |    56.44s |     52865
+  2915 |   0.0512 |    56.46s |     52865
+  2916 |   0.0691 |    56.48s |     52865
+  2917 |   0.0382 |    56.50s |     52866
+  2918 |   0.0620 |    56.52s |     52865
+  2919 |   0.0540 |    56.54s |     52866
+  2920 |   0.0668 |    56.56s |     52866
+[val] step 2920 | val_loss 11.3467
+
+--- sample [step 2920] seed=1337 temp=0.8 top_k=40 ---
+The new product would have the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the
+---
+
+  2921 |   0.0623 |    56.58s |     52866
+  2922 |   0.0424 |    56.60s |     52866
+  2923 |   0.0610 |    56.62s |     52866
+  2924 |   0.0591 |    56.64s |     52867
+  2925 |   0.0589 |    56.66s |     52867
+  2926 |   0.0471 |    56.68s |     52867
+  2927 |   0.0634 |    56.69s |     52867
+  2928 |   0.0576 |    56.71s |     52867
+  2929 |   0.0365 |    56.73s |     52867
+  2930 |   0.0403 |    56.75s |     52866
+  2931 |   0.0448 |    56.77s |     52866
+  2932 |   0.0452 |    56.79s |     52867
+  2933 |   0.0507 |    56.81s |     52867
+  2934 |   0.0520 |    56.83s |     52868
+  2935 |   0.0563 |    56.85s |     52868
+  2936 |   0.0490 |    56.87s |     52868
+  2937 |   0.0396 |    56.89s |     52867
+  2938 |   0.0618 |    56.91s |     52867
+  2939 |   0.0582 |    56.93s |     52867
+  2940 |   0.0805 |    56.95s |     52867
+[val] step 2940 | val_loss 11.3355
+
+--- sample [step 2940] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2941 |   0.0716 |    56.96s |     52868
+  2942 |   0.0473 |    56.98s |     52868
+  2943 |   0.0341 |    57.00s |     52869
+  2944 |   0.0534 |    57.02s |     52869
+  2945 |   0.0479 |    57.04s |     52869
+  2946 |   0.0418 |    57.06s |     52869
+  2947 |   0.0452 |    57.08s |     52870
+  2948 |   0.0423 |    57.10s |     52870
+  2949 |   0.0526 |    57.12s |     52871
+  2950 |   0.0618 |    57.13s |     52872
+  2951 |   0.0660 |    57.15s |     52873
+  2952 |   0.0634 |    57.17s |     52872
+  2953 |   0.0579 |    57.19s |     52872
+  2954 |   0.0394 |    57.21s |     52873
+  2955 |   0.0530 |    57.23s |     52873
+  2956 |   0.0479 |    57.25s |     52874
+  2957 |   0.0371 |    57.27s |     52874
+  2958 |   0.0513 |    57.29s |     52875
+  2959 |   0.0610 |    57.30s |     52875
+  2960 |   0.0658 |    57.32s |     52876
+[val] step 2960 | val_loss 11.1377
+
+--- sample [step 2960] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2961 |   0.0481 |    57.34s |     52876
+  2962 |   0.0443 |    57.36s |     52876
+  2963 |   0.0770 |    57.38s |     52877
+  2964 |   0.0366 |    57.40s |     52877
+  2965 |   0.0389 |    57.42s |     52878
+  2966 |   0.0408 |    57.44s |     52879
+  2967 |   0.0413 |    57.46s |     52880
+  2968 |   0.0523 |    57.47s |     52881
+  2969 |   0.0602 |    57.49s |     52881
+  2970 |   0.0363 |    57.51s |     52882
+  2971 |   0.0587 |    57.53s |     52882
+  2972 |   0.0520 |    57.55s |     52883
+  2973 |   0.0503 |    57.57s |     52883
+  2974 |   0.0458 |    57.59s |     52883
+  2975 |   0.0702 |    57.61s |     52883
+  2976 |   0.0612 |    57.62s |     52884
+  2977 |   0.0469 |    57.64s |     52884
+  2978 |   0.0547 |    57.66s |     52884
+  2979 |   0.0321 |    57.68s |     52885
+  2980 |   0.0531 |    57.70s |     52885
+[val] step 2980 | val_loss 11.2511
+
+--- sample [step 2980] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  2981 |   0.0289 |    57.72s |     52886
+  2982 |   0.0475 |    57.74s |     52886
+  2983 |   0.0645 |    57.76s |     52887
+  2984 |   0.0547 |    57.78s |     52888
+  2985 |   0.0469 |    57.79s |     52888
+  2986 |   0.0433 |    57.81s |     52888
+  2987 |   0.0359 |    57.83s |     52889
+  2988 |   0.0385 |    57.86s |     52883
+  2989 |   0.0501 |    57.88s |     52883
+  2990 |   0.0572 |    57.90s |     52883
+  2991 |   0.0516 |    57.92s |     52883
+  2992 |   0.0602 |    57.94s |     52883
+  2993 |   0.0507 |    57.95s |     52884
+  2994 |   0.0512 |    57.97s |     52884
+  2995 |   0.0405 |    57.99s |     52883
+  2996 |   0.0493 |    58.01s |     52885
+  2997 |   0.0769 |    58.03s |     52885
+  2998 |   0.0411 |    58.05s |     52886
+  2999 |   0.0341 |    58.07s |     52886
+  3000 |   0.0543 |    58.09s |     52887
+[val] step 3000 | val_loss 11.3849
+
+--- sample [step 3000] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  3001 |   0.0453 |    58.11s |     52887
+  3002 |   0.0475 |    58.12s |     52888
+  3003 |   0.0580 |    58.14s |     52888
+  3004 |   0.0291 |    58.16s |     52888
+  3005 |   0.0458 |    58.18s |     52888
+  3006 |   0.0646 |    58.20s |     52888
+  3007 |   0.0597 |    58.22s |     52889
+  3008 |   0.0369 |    58.24s |     52889
+  3009 |   0.0495 |    58.26s |     52889
+  3010 |   0.0576 |    58.28s |     52889
+  3011 |   0.0410 |    58.30s |     52889
+  3012 |   0.0292 |    58.32s |     52889
+  3013 |   0.0474 |    58.34s |     52889
+  3014 |   0.0485 |    58.35s |     52890
+  3015 |   0.0462 |    58.37s |     52890
+  3016 |   0.0423 |    58.39s |     52890
+  3017 |   0.0345 |    58.41s |     52890
+  3018 |   0.0365 |    58.43s |     52891
+  3019 |   0.0429 |    58.45s |     52891
+  3020 |   0.0622 |    58.47s |     52891
+[val] step 3020 | val_loss 11.0672
+
+--- sample [step 3020] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  3021 |   0.0557 |    58.49s |     52891
+  3022 |   0.0632 |    58.51s |     52892
+  3023 |   0.0374 |    58.53s |     52892
+  3024 |   0.0503 |    58.54s |     52893
+  3025 |   0.0407 |    58.56s |     52893
+  3026 |   0.0304 |    58.58s |     52893
+  3027 |   0.0636 |    58.60s |     52893
+  3028 |   0.0573 |    58.62s |     52893
+  3029 |   0.0612 |    58.64s |     52894
+  3030 |   0.0605 |    58.66s |     52895
+  3031 |   0.0502 |    58.68s |     52895
+  3032 |   0.0391 |    58.70s |     52895
+  3033 |   0.0675 |    58.72s |     52896
+  3034 |   0.0504 |    58.73s |     52896
+  3035 |   0.0467 |    58.75s |     52896
+  3036 |   0.0377 |    58.77s |     52897
+  3037 |   0.0314 |    58.79s |     52897
+  3038 |   0.0553 |    58.81s |     52898
+  3039 |   0.0377 |    58.83s |     52898
+  3040 |   0.0413 |    58.85s |     52898
+[val] step 3040 | val_loss 11.0229
+
+--- sample [step 3040] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  3041 |   0.0486 |    58.87s |     52899
+  3042 |   0.0536 |    58.89s |     52899
+  3043 |   0.0473 |    58.90s |     52901
+  3044 |   0.0542 |    58.92s |     52901
+  3045 |   0.0510 |    58.94s |     52900
+  3046 |   0.0464 |    58.96s |     52901
+  3047 |   0.0600 |    58.98s |     52901
+  3048 |   0.0551 |    59.00s |     52901
+  3049 |   0.0577 |    59.02s |     52901
+  3050 |   0.0378 |    59.04s |     52897
+  3051 |   0.0565 |    59.06s |     52897
+  3052 |   0.0464 |    59.08s |     52897
+  3053 |   0.0520 |    59.10s |     52896
+  3054 |   0.0645 |    59.12s |     52897
+  3055 |   0.0548 |    59.14s |     52896
+  3056 |   0.0732 |    59.18s |     52882
+  3057 |   0.0479 |    59.20s |     52874
+  3058 |   0.0387 |    59.23s |     52867
+  3059 |   0.0462 |    59.25s |     52865
+  3060 |   0.0487 |    59.27s |     52865
+[val] step 3060 | val_loss 11.1767
+
+--- sample [step 3060] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  3061 |   0.0522 |    59.29s |     52865
+  3062 |   0.0313 |    59.31s |     52864
+  3063 |   0.0508 |    59.33s |     52864
+  3064 |   0.0611 |    59.35s |     52864
+  3065 |   0.0537 |    59.37s |     52865
+  3066 |   0.0476 |    59.39s |     52865
+  3067 |   0.0433 |    59.41s |     52865
+  3068 |   0.0499 |    59.43s |     52865
+  3069 |   0.0580 |    59.45s |     52866
+  3070 |   0.0381 |    59.47s |     52866
+  3071 |   0.0653 |    59.48s |     52866
+  3072 |   0.0422 |    59.50s |     52866
+  3073 |   0.0717 |    59.52s |     52866
+  3074 |   0.0440 |    59.54s |     52867
+  3075 |   0.0489 |    59.56s |     52866
+  3076 |   0.0462 |    59.58s |     52866
+  3077 |   0.0511 |    59.60s |     52866
+  3078 |   0.0570 |    59.62s |     52867
+  3079 |   0.0609 |    59.64s |     52868
+  3080 |   0.0449 |    59.66s |     52868
+[val] step 3080 | val_loss 11.2505
+
+--- sample [step 3080] seed=1337 temp=0.8 top_k=40 ---
+The new product has the potential to do very well and is targeting £10m in sales in the first year. The new cheese and chocolate spread is being launched on 1 February and will be appear in the chilled
+---
+
+  3081 |   0.0423 |    59.68s |     52868
+  3082 |   0.0684 |    59.70s |     52867
+  3083 |   0.0536 |    59.72s |     52867
+  3084 |   0.0348 |    59.73s |     52867
+  3085 |   0.0429 |    59.75s |     52867
+  3086 |   0.0528 |    59.77s |     52868
+  3087 |   0.0548 |    59.79s |     52866
+  3088 |   0.0574 |    59.82s |     52864
+  3089 |   0.0404 |    59.84s |     52864
+  3090 |   0.0634 |    59.86s |     52864
+  3091 |   0.0464 |    59.88s |     52863
+  3092 |   0.0542 |    59.90s |     52862
+  3093 |   0.0408 |    59.92s |     52861
+  3094 |   0.0387 |    59.94s |     52862
+  3095 |   0.0347 |    59.95s |     52861
+  3096 |   0.0517 |    59.97s |     52861
+  3097 |   0.0619 |    59.99s |     52861
+  3098 |   0.0578 |    60.01s |     52861
+[val] final step 3098 | val_loss 10.9435
+
+--- sample [final (step 3098)] seed=1337 temp=0.8 top_k=40 ---
+The new product would be positioned as a snack. “The breakfast market in countries such as Germany is more developed, and our consumer research firmly identified Philadelphia with Cadbury as a snack.” You must be a registered member
+---
+
+[done] steps=3098 | train=60.01s | wall (incl. sampling)=73.47s | final loss=0.0578
+[done] saved to /Users/macbook/Desktop/AI in accounting/Assignment 2/Build-A-LLM/runs/20261119_234242: console_log.txt, train_log.csv, loss.png, samples.txt, samples.json, checkpoint.pt, run_info.json, validation_report.json, vocab_map.json

@@ -1,0 +1,11 @@
+{
+  "encoding": "o200k_base",
+  "corpus_chars": 22044,
+  "token_file_ids": 4731,
+  "token_file_junk_chars": [],
+  "validation": "passed",
+  "matched_variant": "exact",
+  "source": "token_file",
+  "n_tokens": 4731,
+  "compact_vocab_size": 1814
+}

@@ -1,0 +1,309 @@
+# run_dir: /Users/macbook/Desktop/AI in accounting/Assignment 2/Build-A-LLM/Part 3 - runs/20261119_234242
+# checkpoint step: 3098
+# chosen sentence (verbatim in fineweb_corpus.txt): The Vikings had ten runners run a time of 26:01 or faster.
+# opening word 'The' starts 11 corpus sentences
+# beginning (3 words): The Vikings had
+# o200k_base tokens: 976 'The', 90351 ' Vikings', 1458 ' had'
+# temperature=0.8 top_k=40 max_new_tokens=40
+# candidates rejected before this one: 0
+
+=== 001 | seed 0 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 002 | seed 1 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 003 | seed 2 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 004 | seed 3 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 005 | seed 4 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 006 | seed 5 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 007 | seed 6 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 008 | seed 7 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 009 | seed 8 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 010 | seed 9 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 011 | seed 10 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 012 | seed 11 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 013 | seed 12 ===
+The Vikings had nothing to accept recall information is via the RRE, noted Brian Lynch, senior director of business and industry development for the Grocery Manufacturers Association, Washington, who also participated in the U Connect Live session.
+
+=== 014 | seed 13 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 015 | seed 14 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 016 | seed 15 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 017 | seed 16 ===
+The Vikings had nothing to retailer and wholesaler headquarters, which in turn share the information with individual stores. The exchange's retail membership represents 85% of U.S. grocery volume — including 21 of the 
+
+=== 018 | seed 17 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 019 | seed 18 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 020 | seed 19 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 021 | seed 20 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 022 | seed 21 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 023 | seed 22 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 024 | seed 23 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 025 | seed 24 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 026 | seed 25 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 027 | seed 26 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 028 | seed 27 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 029 | seed 28 ===
+The Vikings had nothing to accept recall information is via the RRE, noted Brian Lynch, senior director of business and industry development for the Grocery Manufacturers Association, Washington, who also participated in the U Connect Live session.
+
+=== 030 | seed 29 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 031 | seed 30 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 032 | seed 31 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 033 | seed 32 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 034 | seed 33 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 035 | seed 34 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 036 | seed 35 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 037 | seed 36 ===
+The Vikings had finish second at the Brissman-Lundeen Invitational at Augustana College in Rock Island, Illinois on Saturday, September 24. It was an impressive second place finish for head coach Paul Olsen’s
+
+=== 038 | seed 37 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 039 | seed 38 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 040 | seed 39 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 041 | seed 40 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 042 | seed 41 ===
+The Vikings had finish second at the Brissman-Lundeen Invitational at Augustana College in Rock Island, Illinois on Saturday, September 24. It was an impressive second place finish for head coach Paul Olsen’s
+
+=== 043 | seed 42 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 044 | seed 43 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 045 | seed 44 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 046 | seed 45 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 047 | seed 46 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 048 | seed 47 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 049 | seed 48 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 050 | seed 49 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 051 | seed 50 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 052 | seed 51 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 053 | seed 52 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 054 | seed 53 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 055 | seed 54 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 056 | seed 55 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 057 | seed 56 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 058 | seed 57 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 059 | seed 58 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 060 | seed 59 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 061 | seed 60 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 062 | seed 61 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 063 | seed 62 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 064 | seed 63 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 065 | seed 64 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 066 | seed 65 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 067 | seed 66 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 068 | seed 67 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 069 | seed 68 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 070 | seed 69 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 071 | seed 70 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 072 | seed 71 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 073 | seed 72 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 074 | seed 73 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 075 | seed 74 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 076 | seed 75 ===
+The Vikings had nothing to accept recall information is via the RRE, noted Brian Lynch, senior director of business and industry development for the Grocery Manufacturers Association, Washington, who also participated in the U Connect Live session.
+
+=== 077 | seed 76 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 078 | seed 77 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 079 | seed 78 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 080 | seed 79 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 081 | seed 80 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 082 | seed 81 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 083 | seed 82 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 084 | seed 83 ===
+The Vikings had nothing would make it a primary source of recall information, according to trade association officials and retailers. Manufacturers use the exchange to communicate timely and accurate product recall and withdrawal notifications to retailer and wholesaler headquarters,
+
+=== 085 | seed 84 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 086 | seed 85 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 087 | seed 86 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 088 | seed 87 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 089 | seed 88 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 090 | seed 89 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 091 | seed 90 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 092 | seed 91 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 093 | seed 92 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 094 | seed 93 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 095 | seed 94 ===
+The Vikings had nothing to do with creating or selling a DVD of that animation, nor do we have anything to do with placing that presentation on Google Video.I dont know what he is talking about with that last part,
+
+=== 096 | seed 95 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 097 | seed 96 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 098 | seed 97 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 099 | seed 98 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+
+=== 100 | seed 99 ===
+The Vikings had ten runners run a time of 26:01 or faster. Tim Thornburg of Wisconsin-Stevens Point won the individual race with a time of 24:58 while teammates Terry Witkowski and
+

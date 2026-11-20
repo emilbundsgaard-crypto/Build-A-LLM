@@ -1,0 +1,10 @@
+# run_dir: /Users/macbook/Desktop/AI in accounting/Assignment 2/Build-A-LLM/Part 3 - runs/20261119_234242
+# checkpoint step: 3098
+# prompt: 'The sky is'
+# o200k_base tokens: 976 'The', 17307 ' sky', 382 ' is'
+# model vocabulary size: 1,814 (only token IDs observed in the training corpus)
+
+RESULT: 0 of 100 completions generated.
+1 of 3 prompt tokens are not in the model's vocabulary:
+  position 1: id 17307 = ' sky'
+No substitution was made, so the model cannot be given this prompt.

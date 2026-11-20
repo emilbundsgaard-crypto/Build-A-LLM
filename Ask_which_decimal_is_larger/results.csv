@@ -1,0 +1,11 @@
+run,seed,condition,q1_answer,q1_correct,q2_answer,q2_correct,q3_answer,q3_correct,exec_status,seconds
+1,0,direct,9.9,True,3,True,Uqts,True,,8.63
+1,0,code,9.9,True,3,True,Uqts,True,ok,11.606
+2,1,direct,9.9,True,3,True,Uqts,True,,9.605
+2,1,code,9.9,True,3,True,Uqts,True,ok,24.389
+3,2,direct,9.9,True,2,False,iq,False,,0.591
+3,2,code,9.9,True,3,True,Uqts,True,ok,5.165
+4,3,direct,9.9,True,3,True,Uqts,True,,11.091
+4,3,code,9.9,True,3,True,Uqts,True,ok,23.757
+5,4,direct,9.9,True,3,True,Uqts,True,,12.412
+5,4,code,9.9,True,3,True,Uqts,True,ok,11.563
